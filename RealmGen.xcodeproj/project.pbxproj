@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2BF8ACC71FF2B91C00638467 /* RealmConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF8ACC61FF2B91C00638467 /* RealmConvertible.swift */; };
+		2BF8ACCB1FF2BA8A00638467 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF8ACCA1FF2BA8A00638467 /* Generator.swift */; };
 		OBJ_18 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_24 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2BF8ACC61FF2B91C00638467 /* RealmConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConvertible.swift; sourceTree = "<group>"; };
+		2BF8ACCA1FF2BA8A00638467 /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		"RealmGen::RealmGen::Product" /* RealmGen */ = {isa = PBXFileReference; lastKnownFileType = text; path = RealmGen; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,6 +32,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BF8ACC91FF2BA7E00638467 /* RealmGenKit */ = {
+			isa = PBXGroup;
+			children = (
+				2BF8ACCA1FF2BA8A00638467 /* Generator.swift */,
+			);
+			name = RealmGenKit;
+			path = Sources/RealmGenKit;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +70,7 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				2BF8ACC91FF2BA7E00638467 /* RealmGenKit */,
 				OBJ_8 /* RealmGen */,
 			);
 			name = Sources;
@@ -138,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				2BF8ACCB1FF2BA8A00638467 /* Generator.swift in Sources */,
 				OBJ_18 /* Package.swift in Sources */,
 				2BF8ACC71FF2B91C00638467 /* RealmConvertible.swift in Sources */,
 			);

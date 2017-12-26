@@ -17,5 +17,8 @@ let package = Package(
         .target(
             name: "RealmGen",
             dependencies: []),
+        .target(
+            name: "RealmGenKit",
+            dependencies: ["RealmGen", "SourceKittenFramework", "Stencil"]),
     ]
 )
