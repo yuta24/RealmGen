@@ -1,1 +1,4 @@
-print("Hello, world!")
+import Foundation
+import RealmGenKit
+
+let generator = Generator(arguments: CommandLine.arguments)

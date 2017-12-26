@@ -8,6 +8,9 @@
 import Foundation
 
 public final class Generator {
-    public init() {
+    private let arguments: [String]
+
+    public init(arguments: [String]) {
+        self.arguments = arguments
     }
 }
