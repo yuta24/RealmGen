@@ -23,7 +23,8 @@ public final class Generator {
         guard let aFiles = (arguments.second.flatMap { files(at: $0) }) else {
             throw GeneratorError.filePathNotFound
         }
-        print(aFiles.flatMap { $0.path })
+        let types = aFiles.map { Structure(file: $0).substructures }.flatMap { $0 }.flatMap { Type($0) }
+        print(types)
     }
 }
 

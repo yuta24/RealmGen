@@ -7,275 +7,277 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		OBJ_138 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_144 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Package.swift */; };
-		OBJ_150 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Package.swift */; };
-		OBJ_156 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* Package.swift */; };
-		OBJ_162 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_88 /* Package.swift */; };
-		OBJ_168 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* Package.swift */; };
-		OBJ_174 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* Package.swift */; };
-		OBJ_180 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* main.swift */; };
-		OBJ_182 /* RealmGenKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "RealmGen::RealmGenKit::Product" /* RealmGenKit.framework */; };
-		OBJ_183 /* Stencil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Stencil::Stencil::Product" /* Stencil.framework */; };
-		OBJ_184 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PathKit::PathKit::Product" /* PathKit.framework */; };
-		OBJ_185 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Spectre::Spectre::Product" /* Spectre.framework */; };
-		OBJ_186 /* SourceKittenFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SourceKitten::SourceKittenFramework::Product" /* SourceKittenFramework.framework */; };
-		OBJ_187 /* Yams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yams::Yams::Product" /* Yams.framework */; };
-		OBJ_188 /* CYaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yams::CYaml::Product" /* CYaml.framework */; };
-		OBJ_189 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SWXMLHash::SWXMLHash::Product" /* SWXMLHash.framework */; };
-		OBJ_210 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Array+Extension.swift */; };
-		OBJ_211 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Generator.swift */; };
-		OBJ_212 /* RealmConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* RealmConvertible.swift */; };
-		OBJ_214 /* Stencil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Stencil::Stencil::Product" /* Stencil.framework */; };
-		OBJ_215 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PathKit::PathKit::Product" /* PathKit.framework */; };
-		OBJ_216 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Spectre::Spectre::Product" /* Spectre.framework */; };
-		OBJ_217 /* SourceKittenFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SourceKitten::SourceKittenFramework::Product" /* SourceKittenFramework.framework */; };
-		OBJ_218 /* Yams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yams::Yams::Product" /* Yams.framework */; };
-		OBJ_219 /* CYaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yams::CYaml::Product" /* CYaml.framework */; };
-		OBJ_220 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SWXMLHash::SWXMLHash::Product" /* SWXMLHash.framework */; };
-		OBJ_232 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Context.swift */; };
-		OBJ_233 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Environment.swift */; };
-		OBJ_234 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Errors.swift */; };
-		OBJ_235 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Expression.swift */; };
-		OBJ_236 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Extension.swift */; };
-		OBJ_237 /* FilterTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* FilterTag.swift */; };
-		OBJ_238 /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Filters.swift */; };
-		OBJ_239 /* ForTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* ForTag.swift */; };
-		OBJ_240 /* IfTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* IfTag.swift */; };
-		OBJ_241 /* Include.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Include.swift */; };
-		OBJ_242 /* Inheritence.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Inheritence.swift */; };
-		OBJ_243 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Lexer.swift */; };
-		OBJ_244 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Loader.swift */; };
-		OBJ_245 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Node.swift */; };
-		OBJ_246 /* NowTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* NowTag.swift */; };
-		OBJ_247 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Parser.swift */; };
-		OBJ_248 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* Template.swift */; };
-		OBJ_249 /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Tokenizer.swift */; };
-		OBJ_250 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* Variable.swift */; };
-		OBJ_252 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PathKit::PathKit::Product" /* PathKit.framework */; };
-		OBJ_253 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Spectre::Spectre::Product" /* Spectre.framework */; };
-		OBJ_260 /* PathKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* PathKit.swift */; };
-		OBJ_262 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Spectre::Spectre::Product" /* Spectre.framework */; };
-		OBJ_268 /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Case.swift */; };
-		OBJ_269 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Context.swift */; };
-		OBJ_270 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* Expectation.swift */; };
-		OBJ_271 /* Failure.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Failure.swift */; };
-		OBJ_272 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Global.swift */; };
-		OBJ_273 /* GlobalContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* GlobalContext.swift */; };
-		OBJ_274 /* Reporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* Reporter.swift */; };
-		OBJ_275 /* Reporters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Reporters.swift */; };
-		OBJ_281 /* Clang+SourceKitten.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* Clang+SourceKitten.swift */; };
-		OBJ_282 /* ClangTranslationUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* ClangTranslationUnit.swift */; };
-		OBJ_283 /* CodeCompletionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* CodeCompletionItem.swift */; };
-		OBJ_284 /* Dictionary+Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* Dictionary+Merge.swift */; };
-		OBJ_285 /* Documentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* Documentation.swift */; };
-		OBJ_286 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* File.swift */; };
-		OBJ_287 /* JSONOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* JSONOutput.swift */; };
-		OBJ_288 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* Language.swift */; };
-		OBJ_289 /* LinuxCompatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* LinuxCompatibility.swift */; };
-		OBJ_290 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* Module.swift */; };
-		OBJ_291 /* ObjCDeclarationKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* ObjCDeclarationKind.swift */; };
-		OBJ_292 /* OffsetMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* OffsetMap.swift */; };
-		OBJ_293 /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* Parameter.swift */; };
-		OBJ_294 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* Request.swift */; };
-		OBJ_295 /* SourceDeclaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* SourceDeclaration.swift */; };
-		OBJ_296 /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* SourceLocation.swift */; };
-		OBJ_297 /* StatementKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* StatementKind.swift */; };
-		OBJ_298 /* String+SourceKitten.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* String+SourceKitten.swift */; };
-		OBJ_299 /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* Structure.swift */; };
-		OBJ_300 /* SwiftDeclarationKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* SwiftDeclarationKind.swift */; };
-		OBJ_301 /* SwiftDocKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* SwiftDocKey.swift */; };
-		OBJ_302 /* SwiftDocs.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* SwiftDocs.swift */; };
-		OBJ_303 /* SwiftLangSyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* SwiftLangSyntax.swift */; };
-		OBJ_304 /* SyntaxKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* SyntaxKind.swift */; };
-		OBJ_305 /* SyntaxMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* SyntaxMap.swift */; };
-		OBJ_306 /* SyntaxToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* SyntaxToken.swift */; };
-		OBJ_307 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* Text.swift */; };
-		OBJ_308 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* Version.swift */; };
-		OBJ_309 /* Xcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_81 /* Xcode.swift */; };
-		OBJ_310 /* library_wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_82 /* library_wrapper.swift */; };
-		OBJ_311 /* library_wrapper_CXString.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_83 /* library_wrapper_CXString.swift */; };
-		OBJ_312 /* library_wrapper_Documentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* library_wrapper_Documentation.swift */; };
-		OBJ_313 /* library_wrapper_Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_85 /* library_wrapper_Index.swift */; };
-		OBJ_314 /* library_wrapper_sourcekitd.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_86 /* library_wrapper_sourcekitd.swift */; };
-		OBJ_316 /* Yams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yams::Yams::Product" /* Yams.framework */; };
-		OBJ_317 /* CYaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yams::CYaml::Product" /* CYaml.framework */; };
-		OBJ_318 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SWXMLHash::SWXMLHash::Product" /* SWXMLHash.framework */; };
-		OBJ_326 /* Constructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_103 /* Constructor.swift */; };
-		OBJ_327 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_104 /* Decoder.swift */; };
-		OBJ_328 /* Emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_105 /* Emitter.swift */; };
-		OBJ_329 /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* Encoder.swift */; };
-		OBJ_330 /* Mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* Mark.swift */; };
-		OBJ_331 /* Node.Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_108 /* Node.Mapping.swift */; };
-		OBJ_332 /* Node.Scalar.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_109 /* Node.Scalar.swift */; };
-		OBJ_333 /* Node.Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* Node.Sequence.swift */; };
-		OBJ_334 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_111 /* Node.swift */; };
-		OBJ_335 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* Parser.swift */; };
-		OBJ_336 /* Representer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_113 /* Representer.swift */; };
-		OBJ_337 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_114 /* Resolver.swift */; };
-		OBJ_338 /* String+Yams.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_115 /* String+Yams.swift */; };
-		OBJ_339 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* Tag.swift */; };
-		OBJ_340 /* YamlError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* YamlError.swift */; };
-		OBJ_342 /* CYaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yams::CYaml::Product" /* CYaml.framework */; };
-		OBJ_348 /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_92 /* api.c */; };
-		OBJ_349 /* emitter.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_93 /* emitter.c */; };
-		OBJ_350 /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_94 /* parser.c */; };
-		OBJ_351 /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_95 /* reader.c */; };
-		OBJ_352 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_96 /* scanner.c */; };
-		OBJ_353 /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_97 /* writer.c */; };
-		OBJ_359 /* SWXMLHash+TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_121 /* SWXMLHash+TypeConversion.swift */; };
-		OBJ_360 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_122 /* SWXMLHash.swift */; };
+		OBJ_140 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_146 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Package.swift */; };
+		OBJ_152 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Package.swift */; };
+		OBJ_158 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Package.swift */; };
+		OBJ_164 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_90 /* Package.swift */; };
+		OBJ_170 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* Package.swift */; };
+		OBJ_176 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_122 /* Package.swift */; };
+		OBJ_182 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* main.swift */; };
+		OBJ_184 /* RealmGenKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "RealmGen::RealmGenKit::Product" /* RealmGenKit.framework */; };
+		OBJ_185 /* Stencil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Stencil::Stencil::Product" /* Stencil.framework */; };
+		OBJ_186 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PathKit::PathKit::Product" /* PathKit.framework */; };
+		OBJ_187 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Spectre::Spectre::Product" /* Spectre.framework */; };
+		OBJ_188 /* SourceKittenFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SourceKitten::SourceKittenFramework::Product" /* SourceKittenFramework.framework */; };
+		OBJ_189 /* Yams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yams::Yams::Product" /* Yams.framework */; };
+		OBJ_190 /* CYaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yams::CYaml::Product" /* CYaml.framework */; };
+		OBJ_191 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SWXMLHash::SWXMLHash::Product" /* SWXMLHash.framework */; };
+		OBJ_212 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Array+Extension.swift */; };
+		OBJ_213 /* Structure+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Structure+Extension.swift */; };
+		OBJ_214 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Generator.swift */; };
+		OBJ_215 /* RealmConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* RealmConvertible.swift */; };
+		OBJ_216 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Type.swift */; };
+		OBJ_218 /* Stencil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Stencil::Stencil::Product" /* Stencil.framework */; };
+		OBJ_219 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PathKit::PathKit::Product" /* PathKit.framework */; };
+		OBJ_220 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Spectre::Spectre::Product" /* Spectre.framework */; };
+		OBJ_221 /* SourceKittenFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SourceKitten::SourceKittenFramework::Product" /* SourceKittenFramework.framework */; };
+		OBJ_222 /* Yams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yams::Yams::Product" /* Yams.framework */; };
+		OBJ_223 /* CYaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yams::CYaml::Product" /* CYaml.framework */; };
+		OBJ_224 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SWXMLHash::SWXMLHash::Product" /* SWXMLHash.framework */; };
+		OBJ_236 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Context.swift */; };
+		OBJ_237 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Environment.swift */; };
+		OBJ_238 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Errors.swift */; };
+		OBJ_239 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Expression.swift */; };
+		OBJ_240 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Extension.swift */; };
+		OBJ_241 /* FilterTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* FilterTag.swift */; };
+		OBJ_242 /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Filters.swift */; };
+		OBJ_243 /* ForTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* ForTag.swift */; };
+		OBJ_244 /* IfTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* IfTag.swift */; };
+		OBJ_245 /* Include.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Include.swift */; };
+		OBJ_246 /* Inheritence.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Inheritence.swift */; };
+		OBJ_247 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Lexer.swift */; };
+		OBJ_248 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Loader.swift */; };
+		OBJ_249 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Node.swift */; };
+		OBJ_250 /* NowTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* NowTag.swift */; };
+		OBJ_251 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Parser.swift */; };
+		OBJ_252 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* Template.swift */; };
+		OBJ_253 /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* Tokenizer.swift */; };
+		OBJ_254 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Variable.swift */; };
+		OBJ_256 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PathKit::PathKit::Product" /* PathKit.framework */; };
+		OBJ_257 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Spectre::Spectre::Product" /* Spectre.framework */; };
+		OBJ_264 /* PathKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* PathKit.swift */; };
+		OBJ_266 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Spectre::Spectre::Product" /* Spectre.framework */; };
+		OBJ_272 /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* Case.swift */; };
+		OBJ_273 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Context.swift */; };
+		OBJ_274 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Expectation.swift */; };
+		OBJ_275 /* Failure.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* Failure.swift */; };
+		OBJ_276 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* Global.swift */; };
+		OBJ_277 /* GlobalContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* GlobalContext.swift */; };
+		OBJ_278 /* Reporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* Reporter.swift */; };
+		OBJ_279 /* Reporters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* Reporters.swift */; };
+		OBJ_285 /* Clang+SourceKitten.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* Clang+SourceKitten.swift */; };
+		OBJ_286 /* ClangTranslationUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* ClangTranslationUnit.swift */; };
+		OBJ_287 /* CodeCompletionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* CodeCompletionItem.swift */; };
+		OBJ_288 /* Dictionary+Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* Dictionary+Merge.swift */; };
+		OBJ_289 /* Documentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* Documentation.swift */; };
+		OBJ_290 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* File.swift */; };
+		OBJ_291 /* JSONOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* JSONOutput.swift */; };
+		OBJ_292 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* Language.swift */; };
+		OBJ_293 /* LinuxCompatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* LinuxCompatibility.swift */; };
+		OBJ_294 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* Module.swift */; };
+		OBJ_295 /* ObjCDeclarationKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* ObjCDeclarationKind.swift */; };
+		OBJ_296 /* OffsetMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* OffsetMap.swift */; };
+		OBJ_297 /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* Parameter.swift */; };
+		OBJ_298 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Request.swift */; };
+		OBJ_299 /* SourceDeclaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* SourceDeclaration.swift */; };
+		OBJ_300 /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* SourceLocation.swift */; };
+		OBJ_301 /* StatementKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* StatementKind.swift */; };
+		OBJ_302 /* String+SourceKitten.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* String+SourceKitten.swift */; };
+		OBJ_303 /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* Structure.swift */; };
+		OBJ_304 /* SwiftDeclarationKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* SwiftDeclarationKind.swift */; };
+		OBJ_305 /* SwiftDocKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* SwiftDocKey.swift */; };
+		OBJ_306 /* SwiftDocs.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* SwiftDocs.swift */; };
+		OBJ_307 /* SwiftLangSyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* SwiftLangSyntax.swift */; };
+		OBJ_308 /* SyntaxKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* SyntaxKind.swift */; };
+		OBJ_309 /* SyntaxMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* SyntaxMap.swift */; };
+		OBJ_310 /* SyntaxToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* SyntaxToken.swift */; };
+		OBJ_311 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_81 /* Text.swift */; };
+		OBJ_312 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_82 /* Version.swift */; };
+		OBJ_313 /* Xcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_83 /* Xcode.swift */; };
+		OBJ_314 /* library_wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* library_wrapper.swift */; };
+		OBJ_315 /* library_wrapper_CXString.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_85 /* library_wrapper_CXString.swift */; };
+		OBJ_316 /* library_wrapper_Documentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_86 /* library_wrapper_Documentation.swift */; };
+		OBJ_317 /* library_wrapper_Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_87 /* library_wrapper_Index.swift */; };
+		OBJ_318 /* library_wrapper_sourcekitd.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_88 /* library_wrapper_sourcekitd.swift */; };
+		OBJ_320 /* Yams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yams::Yams::Product" /* Yams.framework */; };
+		OBJ_321 /* CYaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yams::CYaml::Product" /* CYaml.framework */; };
+		OBJ_322 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SWXMLHash::SWXMLHash::Product" /* SWXMLHash.framework */; };
+		OBJ_330 /* Constructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_105 /* Constructor.swift */; };
+		OBJ_331 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* Decoder.swift */; };
+		OBJ_332 /* Emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* Emitter.swift */; };
+		OBJ_333 /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_108 /* Encoder.swift */; };
+		OBJ_334 /* Mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_109 /* Mark.swift */; };
+		OBJ_335 /* Node.Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* Node.Mapping.swift */; };
+		OBJ_336 /* Node.Scalar.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_111 /* Node.Scalar.swift */; };
+		OBJ_337 /* Node.Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* Node.Sequence.swift */; };
+		OBJ_338 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_113 /* Node.swift */; };
+		OBJ_339 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_114 /* Parser.swift */; };
+		OBJ_340 /* Representer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_115 /* Representer.swift */; };
+		OBJ_341 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* Resolver.swift */; };
+		OBJ_342 /* String+Yams.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* String+Yams.swift */; };
+		OBJ_343 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* Tag.swift */; };
+		OBJ_344 /* YamlError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* YamlError.swift */; };
+		OBJ_346 /* CYaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yams::CYaml::Product" /* CYaml.framework */; };
+		OBJ_352 /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_94 /* api.c */; };
+		OBJ_353 /* emitter.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_95 /* emitter.c */; };
+		OBJ_354 /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_96 /* parser.c */; };
+		OBJ_355 /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_97 /* reader.c */; };
+		OBJ_356 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_98 /* scanner.c */; };
+		OBJ_357 /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_99 /* writer.c */; };
+		OBJ_363 /* SWXMLHash+TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* SWXMLHash+TypeConversion.swift */; };
+		OBJ_364 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_124 /* SWXMLHash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2BF8ACE61FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD161FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "RealmGen::RealmGenKit";
 			remoteInfo = RealmGenKit;
 		};
-		2BF8ACE71FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD171FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Stencil::Stencil";
 			remoteInfo = Stencil;
 		};
-		2BF8ACE81FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD181FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PathKit::PathKit";
 			remoteInfo = PathKit;
 		};
-		2BF8ACE91FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD191FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Spectre::Spectre";
 			remoteInfo = Spectre;
 		};
-		2BF8ACEA1FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD1A1FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Spectre::Spectre";
 			remoteInfo = Spectre;
 		};
-		2BF8ACEB1FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD1B1FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PathKit::PathKit";
 			remoteInfo = PathKit;
 		};
-		2BF8ACEC1FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD1C1FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Spectre::Spectre";
 			remoteInfo = Spectre;
 		};
-		2BF8ACED1FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD1D1FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "SourceKitten::SourceKittenFramework";
 			remoteInfo = SourceKittenFramework;
 		};
-		2BF8ACEE1FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD1E1FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Yams::Yams";
 			remoteInfo = Yams;
 		};
-		2BF8ACEF1FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD1F1FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Yams::CYaml";
 			remoteInfo = CYaml;
 		};
-		2BF8ACF01FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD201FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Yams::CYaml";
 			remoteInfo = CYaml;
 		};
-		2BF8ACF11FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD211FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "SWXMLHash::SWXMLHash";
 			remoteInfo = SWXMLHash;
 		};
-		2BF8ACF21FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD221FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Yams::Yams";
 			remoteInfo = Yams;
 		};
-		2BF8ACF31FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD231FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Yams::CYaml";
 			remoteInfo = CYaml;
 		};
-		2BF8ACF41FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD241FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "SWXMLHash::SWXMLHash";
 			remoteInfo = SWXMLHash;
 		};
-		2BF8ACF51FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD251FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Stencil::Stencil";
 			remoteInfo = Stencil;
 		};
-		2BF8ACF61FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD261FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PathKit::PathKit";
 			remoteInfo = PathKit;
 		};
-		2BF8ACF71FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD271FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Spectre::Spectre";
 			remoteInfo = Spectre;
 		};
-		2BF8ACF81FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD281FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "SourceKitten::SourceKittenFramework";
 			remoteInfo = SourceKittenFramework;
 		};
-		2BF8ACF91FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD291FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Yams::Yams";
 			remoteInfo = Yams;
 		};
-		2BF8ACFA1FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD2A1FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Yams::CYaml";
 			remoteInfo = CYaml;
 		};
-		2BF8ACFB1FF3C57D00638467 /* PBXContainerItemProxy */ = {
+		2BF8AD2B1FF3DC2500638467 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -286,104 +288,106 @@
 
 /* Begin PBXFileReference section */
 		OBJ_10 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
-		OBJ_100 /* yaml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yaml.h; sourceTree = "<group>"; };
-		OBJ_101 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Users/yuta24/ghq/github.com/yuta24/RealmGen/RealmGen.xcodeproj/GeneratedModuleMap/CYaml/module.modulemap; sourceTree = "<group>"; };
-		OBJ_103 /* Constructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constructor.swift; sourceTree = "<group>"; };
-		OBJ_104 /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
-		OBJ_105 /* Emitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emitter.swift; sourceTree = "<group>"; };
-		OBJ_106 /* Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoder.swift; sourceTree = "<group>"; };
-		OBJ_107 /* Mark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mark.swift; sourceTree = "<group>"; };
-		OBJ_108 /* Node.Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.Mapping.swift; sourceTree = "<group>"; };
-		OBJ_109 /* Node.Scalar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.Scalar.swift; sourceTree = "<group>"; };
-		OBJ_11 /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
-		OBJ_110 /* Node.Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.Sequence.swift; sourceTree = "<group>"; };
-		OBJ_111 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
-		OBJ_112 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
-		OBJ_113 /* Representer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Representer.swift; sourceTree = "<group>"; };
-		OBJ_114 /* Resolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolver.swift; sourceTree = "<group>"; };
-		OBJ_115 /* String+Yams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Yams.swift"; sourceTree = "<group>"; };
-		OBJ_116 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
-		OBJ_117 /* YamlError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YamlError.swift; sourceTree = "<group>"; };
-		OBJ_118 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/yuta24/ghq/github.com/yuta24/RealmGen/.build/checkouts/Yams.git-8068124914099325722/Package.swift"; sourceTree = "<group>"; };
-		OBJ_12 /* RealmConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConvertible.swift; sourceTree = "<group>"; };
-		OBJ_120 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/yuta24/ghq/github.com/yuta24/RealmGen/.build/checkouts/SWXMLHash.git-5776748636326364470/Package.swift"; sourceTree = "<group>"; };
-		OBJ_121 /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
-		OBJ_122 /* SWXMLHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
-		OBJ_14 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		OBJ_18 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/yuta24/ghq/github.com/yuta24/RealmGen/.build/checkouts/Stencil.git-7635584243355970173/Package.swift"; sourceTree = "<group>"; };
-		OBJ_19 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
-		OBJ_20 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
-		OBJ_21 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
-		OBJ_22 /* Expression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
-		OBJ_23 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
-		OBJ_24 /* FilterTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTag.swift; sourceTree = "<group>"; };
-		OBJ_25 /* Filters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filters.swift; sourceTree = "<group>"; };
-		OBJ_26 /* ForTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForTag.swift; sourceTree = "<group>"; };
-		OBJ_27 /* IfTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfTag.swift; sourceTree = "<group>"; };
-		OBJ_28 /* Include.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Include.swift; sourceTree = "<group>"; };
-		OBJ_29 /* Inheritence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritence.swift; sourceTree = "<group>"; };
-		OBJ_30 /* Lexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lexer.swift; sourceTree = "<group>"; };
-		OBJ_31 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
-		OBJ_32 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
-		OBJ_33 /* NowTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowTag.swift; sourceTree = "<group>"; };
-		OBJ_34 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
-		OBJ_35 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
-		OBJ_36 /* Tokenizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokenizer.swift; sourceTree = "<group>"; };
-		OBJ_37 /* Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
-		OBJ_39 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/yuta24/ghq/github.com/yuta24/RealmGen/.build/checkouts/PathKit.git--1865447967743163058/Package.swift"; sourceTree = "<group>"; };
-		OBJ_40 /* PathKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathKit.swift; sourceTree = "<group>"; };
-		OBJ_42 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/yuta24/ghq/github.com/yuta24/RealmGen/.build/checkouts/Spectre.git--7655155069707042687/Package.swift"; sourceTree = "<group>"; };
-		OBJ_43 /* Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
-		OBJ_44 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
-		OBJ_45 /* Expectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expectation.swift; sourceTree = "<group>"; };
-		OBJ_46 /* Failure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Failure.swift; sourceTree = "<group>"; };
-		OBJ_47 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
-		OBJ_48 /* GlobalContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalContext.swift; sourceTree = "<group>"; };
-		OBJ_49 /* Reporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reporter.swift; sourceTree = "<group>"; };
-		OBJ_50 /* Reporters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reporters.swift; sourceTree = "<group>"; };
-		OBJ_53 /* Clang+SourceKitten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clang+SourceKitten.swift"; sourceTree = "<group>"; };
-		OBJ_54 /* ClangTranslationUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClangTranslationUnit.swift; sourceTree = "<group>"; };
-		OBJ_55 /* CodeCompletionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCompletionItem.swift; sourceTree = "<group>"; };
-		OBJ_56 /* Dictionary+Merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Merge.swift"; sourceTree = "<group>"; };
-		OBJ_57 /* Documentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documentation.swift; sourceTree = "<group>"; };
-		OBJ_58 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		OBJ_59 /* JSONOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONOutput.swift; sourceTree = "<group>"; };
+		OBJ_101 /* CYaml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYaml.h; sourceTree = "<group>"; };
+		OBJ_102 /* yaml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yaml.h; sourceTree = "<group>"; };
+		OBJ_103 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Users/yuta24/ghq/github.com/yuta24/RealmGen/RealmGen.xcodeproj/GeneratedModuleMap/CYaml/module.modulemap; sourceTree = "<group>"; };
+		OBJ_105 /* Constructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constructor.swift; sourceTree = "<group>"; };
+		OBJ_106 /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
+		OBJ_107 /* Emitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emitter.swift; sourceTree = "<group>"; };
+		OBJ_108 /* Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoder.swift; sourceTree = "<group>"; };
+		OBJ_109 /* Mark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mark.swift; sourceTree = "<group>"; };
+		OBJ_11 /* Structure+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Structure+Extension.swift"; sourceTree = "<group>"; };
+		OBJ_110 /* Node.Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.Mapping.swift; sourceTree = "<group>"; };
+		OBJ_111 /* Node.Scalar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.Scalar.swift; sourceTree = "<group>"; };
+		OBJ_112 /* Node.Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.Sequence.swift; sourceTree = "<group>"; };
+		OBJ_113 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		OBJ_114 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		OBJ_115 /* Representer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Representer.swift; sourceTree = "<group>"; };
+		OBJ_116 /* Resolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolver.swift; sourceTree = "<group>"; };
+		OBJ_117 /* String+Yams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Yams.swift"; sourceTree = "<group>"; };
+		OBJ_118 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		OBJ_119 /* YamlError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YamlError.swift; sourceTree = "<group>"; };
+		OBJ_12 /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
+		OBJ_120 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/yuta24/ghq/github.com/yuta24/RealmGen/.build/checkouts/Yams.git-8068124914099325722/Package.swift"; sourceTree = "<group>"; };
+		OBJ_122 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/yuta24/ghq/github.com/yuta24/RealmGen/.build/checkouts/SWXMLHash.git-5776748636326364470/Package.swift"; sourceTree = "<group>"; };
+		OBJ_123 /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
+		OBJ_124 /* SWXMLHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
+		OBJ_13 /* RealmConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConvertible.swift; sourceTree = "<group>"; };
+		OBJ_14 /* Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
+		OBJ_16 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_20 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/yuta24/ghq/github.com/yuta24/RealmGen/.build/checkouts/Stencil.git-7635584243355970173/Package.swift"; sourceTree = "<group>"; };
+		OBJ_21 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		OBJ_22 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		OBJ_23 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		OBJ_24 /* Expression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
+		OBJ_25 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		OBJ_26 /* FilterTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTag.swift; sourceTree = "<group>"; };
+		OBJ_27 /* Filters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filters.swift; sourceTree = "<group>"; };
+		OBJ_28 /* ForTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForTag.swift; sourceTree = "<group>"; };
+		OBJ_29 /* IfTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfTag.swift; sourceTree = "<group>"; };
+		OBJ_30 /* Include.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Include.swift; sourceTree = "<group>"; };
+		OBJ_31 /* Inheritence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritence.swift; sourceTree = "<group>"; };
+		OBJ_32 /* Lexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lexer.swift; sourceTree = "<group>"; };
+		OBJ_33 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		OBJ_34 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		OBJ_35 /* NowTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowTag.swift; sourceTree = "<group>"; };
+		OBJ_36 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		OBJ_37 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
+		OBJ_38 /* Tokenizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokenizer.swift; sourceTree = "<group>"; };
+		OBJ_39 /* Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
+		OBJ_41 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/yuta24/ghq/github.com/yuta24/RealmGen/.build/checkouts/PathKit.git--1865447967743163058/Package.swift"; sourceTree = "<group>"; };
+		OBJ_42 /* PathKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathKit.swift; sourceTree = "<group>"; };
+		OBJ_44 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/yuta24/ghq/github.com/yuta24/RealmGen/.build/checkouts/Spectre.git--7655155069707042687/Package.swift"; sourceTree = "<group>"; };
+		OBJ_45 /* Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
+		OBJ_46 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		OBJ_47 /* Expectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expectation.swift; sourceTree = "<group>"; };
+		OBJ_48 /* Failure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Failure.swift; sourceTree = "<group>"; };
+		OBJ_49 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		OBJ_50 /* GlobalContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalContext.swift; sourceTree = "<group>"; };
+		OBJ_51 /* Reporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reporter.swift; sourceTree = "<group>"; };
+		OBJ_52 /* Reporters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reporters.swift; sourceTree = "<group>"; };
+		OBJ_55 /* Clang+SourceKitten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clang+SourceKitten.swift"; sourceTree = "<group>"; };
+		OBJ_56 /* ClangTranslationUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClangTranslationUnit.swift; sourceTree = "<group>"; };
+		OBJ_57 /* CodeCompletionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCompletionItem.swift; sourceTree = "<group>"; };
+		OBJ_58 /* Dictionary+Merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Merge.swift"; sourceTree = "<group>"; };
+		OBJ_59 /* Documentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documentation.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_60 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
-		OBJ_61 /* LinuxCompatibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxCompatibility.swift; sourceTree = "<group>"; };
-		OBJ_62 /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
-		OBJ_63 /* ObjCDeclarationKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjCDeclarationKind.swift; sourceTree = "<group>"; };
-		OBJ_64 /* OffsetMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetMap.swift; sourceTree = "<group>"; };
-		OBJ_65 /* Parameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameter.swift; sourceTree = "<group>"; };
-		OBJ_66 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
-		OBJ_67 /* SourceDeclaration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceDeclaration.swift; sourceTree = "<group>"; };
-		OBJ_68 /* SourceLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLocation.swift; sourceTree = "<group>"; };
-		OBJ_69 /* StatementKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementKind.swift; sourceTree = "<group>"; };
-		OBJ_70 /* String+SourceKitten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+SourceKitten.swift"; sourceTree = "<group>"; };
-		OBJ_71 /* Structure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structure.swift; sourceTree = "<group>"; };
-		OBJ_72 /* SwiftDeclarationKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDeclarationKind.swift; sourceTree = "<group>"; };
-		OBJ_73 /* SwiftDocKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDocKey.swift; sourceTree = "<group>"; };
-		OBJ_74 /* SwiftDocs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDocs.swift; sourceTree = "<group>"; };
-		OBJ_75 /* SwiftLangSyntax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLangSyntax.swift; sourceTree = "<group>"; };
-		OBJ_76 /* SyntaxKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxKind.swift; sourceTree = "<group>"; };
-		OBJ_77 /* SyntaxMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxMap.swift; sourceTree = "<group>"; };
-		OBJ_78 /* SyntaxToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxToken.swift; sourceTree = "<group>"; };
-		OBJ_79 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
-		OBJ_80 /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
-		OBJ_81 /* Xcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode.swift; sourceTree = "<group>"; };
-		OBJ_82 /* library_wrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = library_wrapper.swift; sourceTree = "<group>"; };
-		OBJ_83 /* library_wrapper_CXString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = library_wrapper_CXString.swift; sourceTree = "<group>"; };
-		OBJ_84 /* library_wrapper_Documentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = library_wrapper_Documentation.swift; sourceTree = "<group>"; };
-		OBJ_85 /* library_wrapper_Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = library_wrapper_Index.swift; sourceTree = "<group>"; };
-		OBJ_86 /* library_wrapper_sourcekitd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = library_wrapper_sourcekitd.swift; sourceTree = "<group>"; };
-		OBJ_88 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/yuta24/ghq/github.com/yuta24/RealmGen/.build/checkouts/SourceKitten.git-6484296299232452758/Package.swift"; sourceTree = "<group>"; };
-		OBJ_92 /* api.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = api.c; sourceTree = "<group>"; };
-		OBJ_93 /* emitter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = emitter.c; sourceTree = "<group>"; };
-		OBJ_94 /* parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = parser.c; sourceTree = "<group>"; };
-		OBJ_95 /* reader.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reader.c; sourceTree = "<group>"; };
-		OBJ_96 /* scanner.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scanner.c; sourceTree = "<group>"; };
-		OBJ_97 /* writer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = writer.c; sourceTree = "<group>"; };
-		OBJ_99 /* CYaml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYaml.h; sourceTree = "<group>"; };
+		OBJ_60 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		OBJ_61 /* JSONOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONOutput.swift; sourceTree = "<group>"; };
+		OBJ_62 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		OBJ_63 /* LinuxCompatibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxCompatibility.swift; sourceTree = "<group>"; };
+		OBJ_64 /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		OBJ_65 /* ObjCDeclarationKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjCDeclarationKind.swift; sourceTree = "<group>"; };
+		OBJ_66 /* OffsetMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetMap.swift; sourceTree = "<group>"; };
+		OBJ_67 /* Parameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameter.swift; sourceTree = "<group>"; };
+		OBJ_68 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		OBJ_69 /* SourceDeclaration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceDeclaration.swift; sourceTree = "<group>"; };
+		OBJ_70 /* SourceLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLocation.swift; sourceTree = "<group>"; };
+		OBJ_71 /* StatementKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementKind.swift; sourceTree = "<group>"; };
+		OBJ_72 /* String+SourceKitten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+SourceKitten.swift"; sourceTree = "<group>"; };
+		OBJ_73 /* Structure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structure.swift; sourceTree = "<group>"; };
+		OBJ_74 /* SwiftDeclarationKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDeclarationKind.swift; sourceTree = "<group>"; };
+		OBJ_75 /* SwiftDocKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDocKey.swift; sourceTree = "<group>"; };
+		OBJ_76 /* SwiftDocs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDocs.swift; sourceTree = "<group>"; };
+		OBJ_77 /* SwiftLangSyntax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLangSyntax.swift; sourceTree = "<group>"; };
+		OBJ_78 /* SyntaxKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxKind.swift; sourceTree = "<group>"; };
+		OBJ_79 /* SyntaxMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxMap.swift; sourceTree = "<group>"; };
+		OBJ_80 /* SyntaxToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxToken.swift; sourceTree = "<group>"; };
+		OBJ_81 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		OBJ_82 /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		OBJ_83 /* Xcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode.swift; sourceTree = "<group>"; };
+		OBJ_84 /* library_wrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = library_wrapper.swift; sourceTree = "<group>"; };
+		OBJ_85 /* library_wrapper_CXString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = library_wrapper_CXString.swift; sourceTree = "<group>"; };
+		OBJ_86 /* library_wrapper_Documentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = library_wrapper_Documentation.swift; sourceTree = "<group>"; };
+		OBJ_87 /* library_wrapper_Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = library_wrapper_Index.swift; sourceTree = "<group>"; };
+		OBJ_88 /* library_wrapper_sourcekitd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = library_wrapper_sourcekitd.swift; sourceTree = "<group>"; };
+		OBJ_90 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/yuta24/ghq/github.com/yuta24/RealmGen/.build/checkouts/SourceKitten.git-6484296299232452758/Package.swift"; sourceTree = "<group>"; };
+		OBJ_94 /* api.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = api.c; sourceTree = "<group>"; };
+		OBJ_95 /* emitter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = emitter.c; sourceTree = "<group>"; };
+		OBJ_96 /* parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = parser.c; sourceTree = "<group>"; };
+		OBJ_97 /* reader.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reader.c; sourceTree = "<group>"; };
+		OBJ_98 /* scanner.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scanner.c; sourceTree = "<group>"; };
+		OBJ_99 /* writer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = writer.c; sourceTree = "<group>"; };
 		"PathKit::PathKit::Product" /* PathKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PathKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"RealmGen::RealmGen::Product" /* RealmGen */ = {isa = PBXFileReference; lastKnownFileType = text; path = RealmGen; sourceTree = BUILT_PRODUCTS_DIR; };
 		"RealmGen::RealmGenKit::Product" /* RealmGenKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmGenKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -396,85 +400,85 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_181 /* Frameworks */ = {
+		OBJ_183 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_182 /* RealmGenKit.framework in Frameworks */,
-				OBJ_183 /* Stencil.framework in Frameworks */,
-				OBJ_184 /* PathKit.framework in Frameworks */,
-				OBJ_185 /* Spectre.framework in Frameworks */,
-				OBJ_186 /* SourceKittenFramework.framework in Frameworks */,
-				OBJ_187 /* Yams.framework in Frameworks */,
-				OBJ_188 /* CYaml.framework in Frameworks */,
-				OBJ_189 /* SWXMLHash.framework in Frameworks */,
+				OBJ_184 /* RealmGenKit.framework in Frameworks */,
+				OBJ_185 /* Stencil.framework in Frameworks */,
+				OBJ_186 /* PathKit.framework in Frameworks */,
+				OBJ_187 /* Spectre.framework in Frameworks */,
+				OBJ_188 /* SourceKittenFramework.framework in Frameworks */,
+				OBJ_189 /* Yams.framework in Frameworks */,
+				OBJ_190 /* CYaml.framework in Frameworks */,
+				OBJ_191 /* SWXMLHash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_213 /* Frameworks */ = {
+		OBJ_217 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_214 /* Stencil.framework in Frameworks */,
-				OBJ_215 /* PathKit.framework in Frameworks */,
-				OBJ_216 /* Spectre.framework in Frameworks */,
-				OBJ_217 /* SourceKittenFramework.framework in Frameworks */,
-				OBJ_218 /* Yams.framework in Frameworks */,
-				OBJ_219 /* CYaml.framework in Frameworks */,
-				OBJ_220 /* SWXMLHash.framework in Frameworks */,
+				OBJ_218 /* Stencil.framework in Frameworks */,
+				OBJ_219 /* PathKit.framework in Frameworks */,
+				OBJ_220 /* Spectre.framework in Frameworks */,
+				OBJ_221 /* SourceKittenFramework.framework in Frameworks */,
+				OBJ_222 /* Yams.framework in Frameworks */,
+				OBJ_223 /* CYaml.framework in Frameworks */,
+				OBJ_224 /* SWXMLHash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_251 /* Frameworks */ = {
+		OBJ_255 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_252 /* PathKit.framework in Frameworks */,
-				OBJ_253 /* Spectre.framework in Frameworks */,
+				OBJ_256 /* PathKit.framework in Frameworks */,
+				OBJ_257 /* Spectre.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_261 /* Frameworks */ = {
+		OBJ_265 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_262 /* Spectre.framework in Frameworks */,
+				OBJ_266 /* Spectre.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_276 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_315 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_316 /* Yams.framework in Frameworks */,
-				OBJ_317 /* CYaml.framework in Frameworks */,
-				OBJ_318 /* SWXMLHash.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_341 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_342 /* CYaml.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_354 /* Frameworks */ = {
+		OBJ_280 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_361 /* Frameworks */ = {
+		OBJ_319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_320 /* Yams.framework in Frameworks */,
+				OBJ_321 /* CYaml.framework in Frameworks */,
+				OBJ_322 /* SWXMLHash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_346 /* CYaml.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_365 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -484,41 +488,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		OBJ_102 /* Yams */ = {
+		OBJ_100 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_103 /* Constructor.swift */,
-				OBJ_104 /* Decoder.swift */,
-				OBJ_105 /* Emitter.swift */,
-				OBJ_106 /* Encoder.swift */,
-				OBJ_107 /* Mark.swift */,
-				OBJ_108 /* Node.Mapping.swift */,
-				OBJ_109 /* Node.Scalar.swift */,
-				OBJ_110 /* Node.Sequence.swift */,
-				OBJ_111 /* Node.swift */,
-				OBJ_112 /* Parser.swift */,
-				OBJ_113 /* Representer.swift */,
-				OBJ_114 /* Resolver.swift */,
-				OBJ_115 /* String+Yams.swift */,
-				OBJ_116 /* Tag.swift */,
-				OBJ_117 /* YamlError.swift */,
+				OBJ_101 /* CYaml.h */,
+				OBJ_102 /* yaml.h */,
+				OBJ_103 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_104 /* Yams */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_105 /* Constructor.swift */,
+				OBJ_106 /* Decoder.swift */,
+				OBJ_107 /* Emitter.swift */,
+				OBJ_108 /* Encoder.swift */,
+				OBJ_109 /* Mark.swift */,
+				OBJ_110 /* Node.Mapping.swift */,
+				OBJ_111 /* Node.Scalar.swift */,
+				OBJ_112 /* Node.Sequence.swift */,
+				OBJ_113 /* Node.swift */,
+				OBJ_114 /* Parser.swift */,
+				OBJ_115 /* Representer.swift */,
+				OBJ_116 /* Resolver.swift */,
+				OBJ_117 /* String+Yams.swift */,
+				OBJ_118 /* Tag.swift */,
+				OBJ_119 /* YamlError.swift */,
 			);
 			name = Yams;
 			path = ".build/checkouts/Yams.git-8068124914099325722/Sources/Yams";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_119 /* SWXMLHash 4.2.5 */ = {
+		OBJ_121 /* SWXMLHash 4.2.5 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_120 /* Package.swift */,
-				OBJ_121 /* SWXMLHash+TypeConversion.swift */,
-				OBJ_122 /* SWXMLHash.swift */,
+				OBJ_122 /* Package.swift */,
+				OBJ_123 /* SWXMLHash+TypeConversion.swift */,
+				OBJ_124 /* SWXMLHash.swift */,
 			);
 			name = "SWXMLHash 4.2.5";
 			path = ".build/checkouts/SWXMLHash.git-5776748636326364470/Source";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_123 /* Products */ = {
+		OBJ_125 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				"RealmGen::RealmGen::Product" /* RealmGen */,
@@ -534,85 +548,85 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_13 /* RealmGen */ = {
+		OBJ_15 /* RealmGen */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_14 /* main.swift */,
+				OBJ_16 /* main.swift */,
 			);
 			name = RealmGen;
 			path = Sources/RealmGen;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_15 /* Tests */ = {
+		OBJ_17 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Tests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_16 /* Dependencies */ = {
+		OBJ_18 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_17 /* Stencil 0.10.1 */,
-				OBJ_38 /* PathKit 0.8.0 */,
-				OBJ_41 /* Spectre 0.7.2 */,
-				OBJ_51 /* SourceKitten 0.18.4 */,
-				OBJ_89 /* Yams 0.4.1 */,
-				OBJ_119 /* SWXMLHash 4.2.5 */,
+				OBJ_19 /* Stencil 0.10.1 */,
+				OBJ_40 /* PathKit 0.8.0 */,
+				OBJ_43 /* Spectre 0.7.2 */,
+				OBJ_53 /* SourceKitten 0.18.4 */,
+				OBJ_91 /* Yams 0.4.1 */,
+				OBJ_121 /* SWXMLHash 4.2.5 */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		OBJ_17 /* Stencil 0.10.1 */ = {
+		OBJ_19 /* Stencil 0.10.1 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_18 /* Package.swift */,
-				OBJ_19 /* Context.swift */,
-				OBJ_20 /* Environment.swift */,
-				OBJ_21 /* Errors.swift */,
-				OBJ_22 /* Expression.swift */,
-				OBJ_23 /* Extension.swift */,
-				OBJ_24 /* FilterTag.swift */,
-				OBJ_25 /* Filters.swift */,
-				OBJ_26 /* ForTag.swift */,
-				OBJ_27 /* IfTag.swift */,
-				OBJ_28 /* Include.swift */,
-				OBJ_29 /* Inheritence.swift */,
-				OBJ_30 /* Lexer.swift */,
-				OBJ_31 /* Loader.swift */,
-				OBJ_32 /* Node.swift */,
-				OBJ_33 /* NowTag.swift */,
-				OBJ_34 /* Parser.swift */,
-				OBJ_35 /* Template.swift */,
-				OBJ_36 /* Tokenizer.swift */,
-				OBJ_37 /* Variable.swift */,
+				OBJ_20 /* Package.swift */,
+				OBJ_21 /* Context.swift */,
+				OBJ_22 /* Environment.swift */,
+				OBJ_23 /* Errors.swift */,
+				OBJ_24 /* Expression.swift */,
+				OBJ_25 /* Extension.swift */,
+				OBJ_26 /* FilterTag.swift */,
+				OBJ_27 /* Filters.swift */,
+				OBJ_28 /* ForTag.swift */,
+				OBJ_29 /* IfTag.swift */,
+				OBJ_30 /* Include.swift */,
+				OBJ_31 /* Inheritence.swift */,
+				OBJ_32 /* Lexer.swift */,
+				OBJ_33 /* Loader.swift */,
+				OBJ_34 /* Node.swift */,
+				OBJ_35 /* NowTag.swift */,
+				OBJ_36 /* Parser.swift */,
+				OBJ_37 /* Template.swift */,
+				OBJ_38 /* Tokenizer.swift */,
+				OBJ_39 /* Variable.swift */,
 			);
 			name = "Stencil 0.10.1";
 			path = ".build/checkouts/Stencil.git-7635584243355970173/Sources";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_38 /* PathKit 0.8.0 */ = {
+		OBJ_40 /* PathKit 0.8.0 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_39 /* Package.swift */,
-				OBJ_40 /* PathKit.swift */,
+				OBJ_41 /* Package.swift */,
+				OBJ_42 /* PathKit.swift */,
 			);
 			name = "PathKit 0.8.0";
 			path = ".build/checkouts/PathKit.git--1865447967743163058/Sources";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_41 /* Spectre 0.7.2 */ = {
+		OBJ_43 /* Spectre 0.7.2 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_42 /* Package.swift */,
-				OBJ_43 /* Case.swift */,
-				OBJ_44 /* Context.swift */,
-				OBJ_45 /* Expectation.swift */,
-				OBJ_46 /* Failure.swift */,
-				OBJ_47 /* Global.swift */,
-				OBJ_48 /* GlobalContext.swift */,
-				OBJ_49 /* Reporter.swift */,
-				OBJ_50 /* Reporters.swift */,
+				OBJ_44 /* Package.swift */,
+				OBJ_45 /* Case.swift */,
+				OBJ_46 /* Context.swift */,
+				OBJ_47 /* Expectation.swift */,
+				OBJ_48 /* Failure.swift */,
+				OBJ_49 /* Global.swift */,
+				OBJ_50 /* GlobalContext.swift */,
+				OBJ_51 /* Reporter.swift */,
+				OBJ_52 /* Reporters.swift */,
 			);
 			name = "Spectre 0.7.2";
 			path = ".build/checkouts/Spectre.git--7655155069707042687/Sources";
@@ -623,60 +637,60 @@
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_15 /* Tests */,
-				OBJ_16 /* Dependencies */,
-				OBJ_123 /* Products */,
+				OBJ_17 /* Tests */,
+				OBJ_18 /* Dependencies */,
+				OBJ_125 /* Products */,
 			);
 			name = "";
 			sourceTree = "<group>";
 		};
-		OBJ_51 /* SourceKitten 0.18.4 */ = {
+		OBJ_53 /* SourceKitten 0.18.4 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_52 /* SourceKittenFramework */,
-				OBJ_87 /* sourcekitten */,
-				OBJ_88 /* Package.swift */,
+				OBJ_54 /* SourceKittenFramework */,
+				OBJ_89 /* sourcekitten */,
+				OBJ_90 /* Package.swift */,
 			);
 			name = "SourceKitten 0.18.4";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_52 /* SourceKittenFramework */ = {
+		OBJ_54 /* SourceKittenFramework */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_53 /* Clang+SourceKitten.swift */,
-				OBJ_54 /* ClangTranslationUnit.swift */,
-				OBJ_55 /* CodeCompletionItem.swift */,
-				OBJ_56 /* Dictionary+Merge.swift */,
-				OBJ_57 /* Documentation.swift */,
-				OBJ_58 /* File.swift */,
-				OBJ_59 /* JSONOutput.swift */,
-				OBJ_60 /* Language.swift */,
-				OBJ_61 /* LinuxCompatibility.swift */,
-				OBJ_62 /* Module.swift */,
-				OBJ_63 /* ObjCDeclarationKind.swift */,
-				OBJ_64 /* OffsetMap.swift */,
-				OBJ_65 /* Parameter.swift */,
-				OBJ_66 /* Request.swift */,
-				OBJ_67 /* SourceDeclaration.swift */,
-				OBJ_68 /* SourceLocation.swift */,
-				OBJ_69 /* StatementKind.swift */,
-				OBJ_70 /* String+SourceKitten.swift */,
-				OBJ_71 /* Structure.swift */,
-				OBJ_72 /* SwiftDeclarationKind.swift */,
-				OBJ_73 /* SwiftDocKey.swift */,
-				OBJ_74 /* SwiftDocs.swift */,
-				OBJ_75 /* SwiftLangSyntax.swift */,
-				OBJ_76 /* SyntaxKind.swift */,
-				OBJ_77 /* SyntaxMap.swift */,
-				OBJ_78 /* SyntaxToken.swift */,
-				OBJ_79 /* Text.swift */,
-				OBJ_80 /* Version.swift */,
-				OBJ_81 /* Xcode.swift */,
-				OBJ_82 /* library_wrapper.swift */,
-				OBJ_83 /* library_wrapper_CXString.swift */,
-				OBJ_84 /* library_wrapper_Documentation.swift */,
-				OBJ_85 /* library_wrapper_Index.swift */,
-				OBJ_86 /* library_wrapper_sourcekitd.swift */,
+				OBJ_55 /* Clang+SourceKitten.swift */,
+				OBJ_56 /* ClangTranslationUnit.swift */,
+				OBJ_57 /* CodeCompletionItem.swift */,
+				OBJ_58 /* Dictionary+Merge.swift */,
+				OBJ_59 /* Documentation.swift */,
+				OBJ_60 /* File.swift */,
+				OBJ_61 /* JSONOutput.swift */,
+				OBJ_62 /* Language.swift */,
+				OBJ_63 /* LinuxCompatibility.swift */,
+				OBJ_64 /* Module.swift */,
+				OBJ_65 /* ObjCDeclarationKind.swift */,
+				OBJ_66 /* OffsetMap.swift */,
+				OBJ_67 /* Parameter.swift */,
+				OBJ_68 /* Request.swift */,
+				OBJ_69 /* SourceDeclaration.swift */,
+				OBJ_70 /* SourceLocation.swift */,
+				OBJ_71 /* StatementKind.swift */,
+				OBJ_72 /* String+SourceKitten.swift */,
+				OBJ_73 /* Structure.swift */,
+				OBJ_74 /* SwiftDeclarationKind.swift */,
+				OBJ_75 /* SwiftDocKey.swift */,
+				OBJ_76 /* SwiftDocs.swift */,
+				OBJ_77 /* SwiftLangSyntax.swift */,
+				OBJ_78 /* SyntaxKind.swift */,
+				OBJ_79 /* SyntaxMap.swift */,
+				OBJ_80 /* SyntaxToken.swift */,
+				OBJ_81 /* Text.swift */,
+				OBJ_82 /* Version.swift */,
+				OBJ_83 /* Xcode.swift */,
+				OBJ_84 /* library_wrapper.swift */,
+				OBJ_85 /* library_wrapper_CXString.swift */,
+				OBJ_86 /* library_wrapper_Documentation.swift */,
+				OBJ_87 /* library_wrapper_Index.swift */,
+				OBJ_88 /* library_wrapper_sourcekitd.swift */,
 			);
 			name = SourceKittenFramework;
 			path = ".build/checkouts/SourceKitten.git-6484296299232452758/Source/SourceKittenFramework";
@@ -686,7 +700,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_8 /* RealmGenKit */,
-				OBJ_13 /* RealmGen */,
+				OBJ_15 /* RealmGen */,
 			);
 			name = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -695,14 +709,15 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* Extension */,
-				OBJ_11 /* Generator.swift */,
-				OBJ_12 /* RealmConvertible.swift */,
+				OBJ_12 /* Generator.swift */,
+				OBJ_13 /* RealmConvertible.swift */,
+				OBJ_14 /* Type.swift */,
 			);
 			name = RealmGenKit;
 			path = Sources/RealmGenKit;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_87 /* sourcekitten */ = {
+		OBJ_89 /* sourcekitten */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -710,55 +725,46 @@
 			path = ".build/checkouts/SourceKitten.git-6484296299232452758/Source/sourcekitten";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_89 /* Yams 0.4.1 */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_90 /* CYaml */,
-				OBJ_102 /* Yams */,
-				OBJ_118 /* Package.swift */,
-			);
-			name = "Yams 0.4.1";
-			sourceTree = SOURCE_ROOT;
-		};
 		OBJ_9 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_10 /* Array+Extension.swift */,
+				OBJ_11 /* Structure+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		OBJ_90 /* CYaml */ = {
+		OBJ_91 /* Yams 0.4.1 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_91 /* src */,
-				OBJ_98 /* include */,
+				OBJ_92 /* CYaml */,
+				OBJ_104 /* Yams */,
+				OBJ_120 /* Package.swift */,
+			);
+			name = "Yams 0.4.1";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_92 /* CYaml */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_93 /* src */,
+				OBJ_100 /* include */,
 			);
 			name = CYaml;
 			path = ".build/checkouts/Yams.git-8068124914099325722/Sources/CYaml";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_91 /* src */ = {
+		OBJ_93 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_92 /* api.c */,
-				OBJ_93 /* emitter.c */,
-				OBJ_94 /* parser.c */,
-				OBJ_95 /* reader.c */,
-				OBJ_96 /* scanner.c */,
-				OBJ_97 /* writer.c */,
+				OBJ_94 /* api.c */,
+				OBJ_95 /* emitter.c */,
+				OBJ_96 /* parser.c */,
+				OBJ_97 /* reader.c */,
+				OBJ_98 /* scanner.c */,
+				OBJ_99 /* writer.c */,
 			);
 			path = src;
-			sourceTree = "<group>";
-		};
-		OBJ_98 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_99 /* CYaml.h */,
-				OBJ_100 /* yaml.h */,
-				OBJ_101 /* module.modulemap */,
-			);
-			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -766,15 +772,15 @@
 /* Begin PBXNativeTarget section */
 		"PathKit::PathKit" /* PathKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_256 /* Build configuration list for PBXNativeTarget "PathKit" */;
+			buildConfigurationList = OBJ_260 /* Build configuration list for PBXNativeTarget "PathKit" */;
 			buildPhases = (
-				OBJ_259 /* Sources */,
-				OBJ_261 /* Frameworks */,
+				OBJ_263 /* Sources */,
+				OBJ_265 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_263 /* PBXTargetDependency */,
+				OBJ_267 /* PBXTargetDependency */,
 			);
 			name = PathKit;
 			productName = PathKit;
@@ -783,9 +789,9 @@
 		};
 		"PathKit::SwiftPMPackageDescription" /* PathKitPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_146 /* Build configuration list for PBXNativeTarget "PathKitPackageDescription" */;
+			buildConfigurationList = OBJ_148 /* Build configuration list for PBXNativeTarget "PathKitPackageDescription" */;
 			buildPhases = (
-				OBJ_149 /* Sources */,
+				OBJ_151 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -797,15 +803,14 @@
 		};
 		"RealmGen::RealmGen" /* RealmGen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_176 /* Build configuration list for PBXNativeTarget "RealmGen" */;
+			buildConfigurationList = OBJ_178 /* Build configuration list for PBXNativeTarget "RealmGen" */;
 			buildPhases = (
-				OBJ_179 /* Sources */,
-				OBJ_181 /* Frameworks */,
+				OBJ_181 /* Sources */,
+				OBJ_183 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_190 /* PBXTargetDependency */,
 				OBJ_192 /* PBXTargetDependency */,
 				OBJ_194 /* PBXTargetDependency */,
 				OBJ_196 /* PBXTargetDependency */,
@@ -813,6 +818,7 @@
 				OBJ_200 /* PBXTargetDependency */,
 				OBJ_202 /* PBXTargetDependency */,
 				OBJ_204 /* PBXTargetDependency */,
+				OBJ_206 /* PBXTargetDependency */,
 			);
 			name = RealmGen;
 			productName = RealmGen;
@@ -821,21 +827,21 @@
 		};
 		"RealmGen::RealmGenKit" /* RealmGenKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_206 /* Build configuration list for PBXNativeTarget "RealmGenKit" */;
+			buildConfigurationList = OBJ_208 /* Build configuration list for PBXNativeTarget "RealmGenKit" */;
 			buildPhases = (
-				OBJ_209 /* Sources */,
-				OBJ_213 /* Frameworks */,
+				OBJ_211 /* Sources */,
+				OBJ_217 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_221 /* PBXTargetDependency */,
-				OBJ_222 /* PBXTargetDependency */,
-				OBJ_223 /* PBXTargetDependency */,
-				OBJ_224 /* PBXTargetDependency */,
 				OBJ_225 /* PBXTargetDependency */,
 				OBJ_226 /* PBXTargetDependency */,
 				OBJ_227 /* PBXTargetDependency */,
+				OBJ_228 /* PBXTargetDependency */,
+				OBJ_229 /* PBXTargetDependency */,
+				OBJ_230 /* PBXTargetDependency */,
+				OBJ_231 /* PBXTargetDependency */,
 			);
 			name = RealmGenKit;
 			productName = RealmGenKit;
@@ -844,9 +850,9 @@
 		};
 		"RealmGen::SwiftPMPackageDescription" /* RealmGenPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_134 /* Build configuration list for PBXNativeTarget "RealmGenPackageDescription" */;
+			buildConfigurationList = OBJ_136 /* Build configuration list for PBXNativeTarget "RealmGenPackageDescription" */;
 			buildPhases = (
-				OBJ_137 /* Sources */,
+				OBJ_139 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -858,10 +864,10 @@
 		};
 		"SWXMLHash::SWXMLHash" /* SWXMLHash */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_355 /* Build configuration list for PBXNativeTarget "SWXMLHash" */;
+			buildConfigurationList = OBJ_359 /* Build configuration list for PBXNativeTarget "SWXMLHash" */;
 			buildPhases = (
-				OBJ_358 /* Sources */,
-				OBJ_361 /* Frameworks */,
+				OBJ_362 /* Sources */,
+				OBJ_365 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -874,9 +880,9 @@
 		};
 		"SWXMLHash::SwiftPMPackageDescription" /* SWXMLHashPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_170 /* Build configuration list for PBXNativeTarget "SWXMLHashPackageDescription" */;
+			buildConfigurationList = OBJ_172 /* Build configuration list for PBXNativeTarget "SWXMLHashPackageDescription" */;
 			buildPhases = (
-				OBJ_173 /* Sources */,
+				OBJ_175 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -888,17 +894,17 @@
 		};
 		"SourceKitten::SourceKittenFramework" /* SourceKittenFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_277 /* Build configuration list for PBXNativeTarget "SourceKittenFramework" */;
+			buildConfigurationList = OBJ_281 /* Build configuration list for PBXNativeTarget "SourceKittenFramework" */;
 			buildPhases = (
-				OBJ_280 /* Sources */,
-				OBJ_315 /* Frameworks */,
+				OBJ_284 /* Sources */,
+				OBJ_319 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_319 /* PBXTargetDependency */,
-				OBJ_320 /* PBXTargetDependency */,
-				OBJ_321 /* PBXTargetDependency */,
+				OBJ_323 /* PBXTargetDependency */,
+				OBJ_324 /* PBXTargetDependency */,
+				OBJ_325 /* PBXTargetDependency */,
 			);
 			name = SourceKittenFramework;
 			productName = SourceKittenFramework;
@@ -907,9 +913,9 @@
 		};
 		"SourceKitten::SwiftPMPackageDescription" /* SourceKittenPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_158 /* Build configuration list for PBXNativeTarget "SourceKittenPackageDescription" */;
+			buildConfigurationList = OBJ_160 /* Build configuration list for PBXNativeTarget "SourceKittenPackageDescription" */;
 			buildPhases = (
-				OBJ_161 /* Sources */,
+				OBJ_163 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -921,10 +927,10 @@
 		};
 		"Spectre::Spectre" /* Spectre */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_264 /* Build configuration list for PBXNativeTarget "Spectre" */;
+			buildConfigurationList = OBJ_268 /* Build configuration list for PBXNativeTarget "Spectre" */;
 			buildPhases = (
-				OBJ_267 /* Sources */,
-				OBJ_276 /* Frameworks */,
+				OBJ_271 /* Sources */,
+				OBJ_280 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -937,9 +943,9 @@
 		};
 		"Spectre::SwiftPMPackageDescription" /* SpectrePackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_152 /* Build configuration list for PBXNativeTarget "SpectrePackageDescription" */;
+			buildConfigurationList = OBJ_154 /* Build configuration list for PBXNativeTarget "SpectrePackageDescription" */;
 			buildPhases = (
-				OBJ_155 /* Sources */,
+				OBJ_157 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -951,16 +957,16 @@
 		};
 		"Stencil::Stencil" /* Stencil */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_228 /* Build configuration list for PBXNativeTarget "Stencil" */;
+			buildConfigurationList = OBJ_232 /* Build configuration list for PBXNativeTarget "Stencil" */;
 			buildPhases = (
-				OBJ_231 /* Sources */,
-				OBJ_251 /* Frameworks */,
+				OBJ_235 /* Sources */,
+				OBJ_255 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_254 /* PBXTargetDependency */,
-				OBJ_255 /* PBXTargetDependency */,
+				OBJ_258 /* PBXTargetDependency */,
+				OBJ_259 /* PBXTargetDependency */,
 			);
 			name = Stencil;
 			productName = Stencil;
@@ -969,9 +975,9 @@
 		};
 		"Stencil::SwiftPMPackageDescription" /* StencilPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_140 /* Build configuration list for PBXNativeTarget "StencilPackageDescription" */;
+			buildConfigurationList = OBJ_142 /* Build configuration list for PBXNativeTarget "StencilPackageDescription" */;
 			buildPhases = (
-				OBJ_143 /* Sources */,
+				OBJ_145 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -983,10 +989,10 @@
 		};
 		"Yams::CYaml" /* CYaml */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_344 /* Build configuration list for PBXNativeTarget "CYaml" */;
+			buildConfigurationList = OBJ_348 /* Build configuration list for PBXNativeTarget "CYaml" */;
 			buildPhases = (
-				OBJ_347 /* Sources */,
-				OBJ_354 /* Frameworks */,
+				OBJ_351 /* Sources */,
+				OBJ_358 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -999,9 +1005,9 @@
 		};
 		"Yams::SwiftPMPackageDescription" /* YamsPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_164 /* Build configuration list for PBXNativeTarget "YamsPackageDescription" */;
+			buildConfigurationList = OBJ_166 /* Build configuration list for PBXNativeTarget "YamsPackageDescription" */;
 			buildPhases = (
-				OBJ_167 /* Sources */,
+				OBJ_169 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -1013,15 +1019,15 @@
 		};
 		"Yams::Yams" /* Yams */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_322 /* Build configuration list for PBXNativeTarget "Yams" */;
+			buildConfigurationList = OBJ_326 /* Build configuration list for PBXNativeTarget "Yams" */;
 			buildPhases = (
-				OBJ_325 /* Sources */,
-				OBJ_341 /* Frameworks */,
+				OBJ_329 /* Sources */,
+				OBJ_345 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_343 /* PBXTargetDependency */,
+				OBJ_347 /* PBXTargetDependency */,
 			);
 			name = Yams;
 			productName = Yams;
@@ -1044,7 +1050,7 @@
 				en,
 			);
 			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_123 /* Products */;
+			productRefGroup = OBJ_125 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1069,331 +1075,333 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_137 /* Sources */ = {
+		OBJ_139 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_138 /* Package.swift in Sources */,
+				OBJ_140 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_143 /* Sources */ = {
+		OBJ_145 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_144 /* Package.swift in Sources */,
+				OBJ_146 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_149 /* Sources */ = {
+		OBJ_151 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_150 /* Package.swift in Sources */,
+				OBJ_152 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_155 /* Sources */ = {
+		OBJ_157 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_156 /* Package.swift in Sources */,
+				OBJ_158 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_161 /* Sources */ = {
+		OBJ_163 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_162 /* Package.swift in Sources */,
+				OBJ_164 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_167 /* Sources */ = {
+		OBJ_169 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_168 /* Package.swift in Sources */,
+				OBJ_170 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_173 /* Sources */ = {
+		OBJ_175 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_174 /* Package.swift in Sources */,
+				OBJ_176 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_179 /* Sources */ = {
+		OBJ_181 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_180 /* main.swift in Sources */,
+				OBJ_182 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_209 /* Sources */ = {
+		OBJ_211 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_210 /* Array+Extension.swift in Sources */,
-				OBJ_211 /* Generator.swift in Sources */,
-				OBJ_212 /* RealmConvertible.swift in Sources */,
+				OBJ_212 /* Array+Extension.swift in Sources */,
+				OBJ_213 /* Structure+Extension.swift in Sources */,
+				OBJ_214 /* Generator.swift in Sources */,
+				OBJ_215 /* RealmConvertible.swift in Sources */,
+				OBJ_216 /* Type.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_231 /* Sources */ = {
+		OBJ_235 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_232 /* Context.swift in Sources */,
-				OBJ_233 /* Environment.swift in Sources */,
-				OBJ_234 /* Errors.swift in Sources */,
-				OBJ_235 /* Expression.swift in Sources */,
-				OBJ_236 /* Extension.swift in Sources */,
-				OBJ_237 /* FilterTag.swift in Sources */,
-				OBJ_238 /* Filters.swift in Sources */,
-				OBJ_239 /* ForTag.swift in Sources */,
-				OBJ_240 /* IfTag.swift in Sources */,
-				OBJ_241 /* Include.swift in Sources */,
-				OBJ_242 /* Inheritence.swift in Sources */,
-				OBJ_243 /* Lexer.swift in Sources */,
-				OBJ_244 /* Loader.swift in Sources */,
-				OBJ_245 /* Node.swift in Sources */,
-				OBJ_246 /* NowTag.swift in Sources */,
-				OBJ_247 /* Parser.swift in Sources */,
-				OBJ_248 /* Template.swift in Sources */,
-				OBJ_249 /* Tokenizer.swift in Sources */,
-				OBJ_250 /* Variable.swift in Sources */,
+				OBJ_236 /* Context.swift in Sources */,
+				OBJ_237 /* Environment.swift in Sources */,
+				OBJ_238 /* Errors.swift in Sources */,
+				OBJ_239 /* Expression.swift in Sources */,
+				OBJ_240 /* Extension.swift in Sources */,
+				OBJ_241 /* FilterTag.swift in Sources */,
+				OBJ_242 /* Filters.swift in Sources */,
+				OBJ_243 /* ForTag.swift in Sources */,
+				OBJ_244 /* IfTag.swift in Sources */,
+				OBJ_245 /* Include.swift in Sources */,
+				OBJ_246 /* Inheritence.swift in Sources */,
+				OBJ_247 /* Lexer.swift in Sources */,
+				OBJ_248 /* Loader.swift in Sources */,
+				OBJ_249 /* Node.swift in Sources */,
+				OBJ_250 /* NowTag.swift in Sources */,
+				OBJ_251 /* Parser.swift in Sources */,
+				OBJ_252 /* Template.swift in Sources */,
+				OBJ_253 /* Tokenizer.swift in Sources */,
+				OBJ_254 /* Variable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_259 /* Sources */ = {
+		OBJ_263 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_260 /* PathKit.swift in Sources */,
+				OBJ_264 /* PathKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_267 /* Sources */ = {
+		OBJ_271 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_268 /* Case.swift in Sources */,
-				OBJ_269 /* Context.swift in Sources */,
-				OBJ_270 /* Expectation.swift in Sources */,
-				OBJ_271 /* Failure.swift in Sources */,
-				OBJ_272 /* Global.swift in Sources */,
-				OBJ_273 /* GlobalContext.swift in Sources */,
-				OBJ_274 /* Reporter.swift in Sources */,
-				OBJ_275 /* Reporters.swift in Sources */,
+				OBJ_272 /* Case.swift in Sources */,
+				OBJ_273 /* Context.swift in Sources */,
+				OBJ_274 /* Expectation.swift in Sources */,
+				OBJ_275 /* Failure.swift in Sources */,
+				OBJ_276 /* Global.swift in Sources */,
+				OBJ_277 /* GlobalContext.swift in Sources */,
+				OBJ_278 /* Reporter.swift in Sources */,
+				OBJ_279 /* Reporters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_280 /* Sources */ = {
+		OBJ_284 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_281 /* Clang+SourceKitten.swift in Sources */,
-				OBJ_282 /* ClangTranslationUnit.swift in Sources */,
-				OBJ_283 /* CodeCompletionItem.swift in Sources */,
-				OBJ_284 /* Dictionary+Merge.swift in Sources */,
-				OBJ_285 /* Documentation.swift in Sources */,
-				OBJ_286 /* File.swift in Sources */,
-				OBJ_287 /* JSONOutput.swift in Sources */,
-				OBJ_288 /* Language.swift in Sources */,
-				OBJ_289 /* LinuxCompatibility.swift in Sources */,
-				OBJ_290 /* Module.swift in Sources */,
-				OBJ_291 /* ObjCDeclarationKind.swift in Sources */,
-				OBJ_292 /* OffsetMap.swift in Sources */,
-				OBJ_293 /* Parameter.swift in Sources */,
-				OBJ_294 /* Request.swift in Sources */,
-				OBJ_295 /* SourceDeclaration.swift in Sources */,
-				OBJ_296 /* SourceLocation.swift in Sources */,
-				OBJ_297 /* StatementKind.swift in Sources */,
-				OBJ_298 /* String+SourceKitten.swift in Sources */,
-				OBJ_299 /* Structure.swift in Sources */,
-				OBJ_300 /* SwiftDeclarationKind.swift in Sources */,
-				OBJ_301 /* SwiftDocKey.swift in Sources */,
-				OBJ_302 /* SwiftDocs.swift in Sources */,
-				OBJ_303 /* SwiftLangSyntax.swift in Sources */,
-				OBJ_304 /* SyntaxKind.swift in Sources */,
-				OBJ_305 /* SyntaxMap.swift in Sources */,
-				OBJ_306 /* SyntaxToken.swift in Sources */,
-				OBJ_307 /* Text.swift in Sources */,
-				OBJ_308 /* Version.swift in Sources */,
-				OBJ_309 /* Xcode.swift in Sources */,
-				OBJ_310 /* library_wrapper.swift in Sources */,
-				OBJ_311 /* library_wrapper_CXString.swift in Sources */,
-				OBJ_312 /* library_wrapper_Documentation.swift in Sources */,
-				OBJ_313 /* library_wrapper_Index.swift in Sources */,
-				OBJ_314 /* library_wrapper_sourcekitd.swift in Sources */,
+				OBJ_285 /* Clang+SourceKitten.swift in Sources */,
+				OBJ_286 /* ClangTranslationUnit.swift in Sources */,
+				OBJ_287 /* CodeCompletionItem.swift in Sources */,
+				OBJ_288 /* Dictionary+Merge.swift in Sources */,
+				OBJ_289 /* Documentation.swift in Sources */,
+				OBJ_290 /* File.swift in Sources */,
+				OBJ_291 /* JSONOutput.swift in Sources */,
+				OBJ_292 /* Language.swift in Sources */,
+				OBJ_293 /* LinuxCompatibility.swift in Sources */,
+				OBJ_294 /* Module.swift in Sources */,
+				OBJ_295 /* ObjCDeclarationKind.swift in Sources */,
+				OBJ_296 /* OffsetMap.swift in Sources */,
+				OBJ_297 /* Parameter.swift in Sources */,
+				OBJ_298 /* Request.swift in Sources */,
+				OBJ_299 /* SourceDeclaration.swift in Sources */,
+				OBJ_300 /* SourceLocation.swift in Sources */,
+				OBJ_301 /* StatementKind.swift in Sources */,
+				OBJ_302 /* String+SourceKitten.swift in Sources */,
+				OBJ_303 /* Structure.swift in Sources */,
+				OBJ_304 /* SwiftDeclarationKind.swift in Sources */,
+				OBJ_305 /* SwiftDocKey.swift in Sources */,
+				OBJ_306 /* SwiftDocs.swift in Sources */,
+				OBJ_307 /* SwiftLangSyntax.swift in Sources */,
+				OBJ_308 /* SyntaxKind.swift in Sources */,
+				OBJ_309 /* SyntaxMap.swift in Sources */,
+				OBJ_310 /* SyntaxToken.swift in Sources */,
+				OBJ_311 /* Text.swift in Sources */,
+				OBJ_312 /* Version.swift in Sources */,
+				OBJ_313 /* Xcode.swift in Sources */,
+				OBJ_314 /* library_wrapper.swift in Sources */,
+				OBJ_315 /* library_wrapper_CXString.swift in Sources */,
+				OBJ_316 /* library_wrapper_Documentation.swift in Sources */,
+				OBJ_317 /* library_wrapper_Index.swift in Sources */,
+				OBJ_318 /* library_wrapper_sourcekitd.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_325 /* Sources */ = {
+		OBJ_329 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_326 /* Constructor.swift in Sources */,
-				OBJ_327 /* Decoder.swift in Sources */,
-				OBJ_328 /* Emitter.swift in Sources */,
-				OBJ_329 /* Encoder.swift in Sources */,
-				OBJ_330 /* Mark.swift in Sources */,
-				OBJ_331 /* Node.Mapping.swift in Sources */,
-				OBJ_332 /* Node.Scalar.swift in Sources */,
-				OBJ_333 /* Node.Sequence.swift in Sources */,
-				OBJ_334 /* Node.swift in Sources */,
-				OBJ_335 /* Parser.swift in Sources */,
-				OBJ_336 /* Representer.swift in Sources */,
-				OBJ_337 /* Resolver.swift in Sources */,
-				OBJ_338 /* String+Yams.swift in Sources */,
-				OBJ_339 /* Tag.swift in Sources */,
-				OBJ_340 /* YamlError.swift in Sources */,
+				OBJ_330 /* Constructor.swift in Sources */,
+				OBJ_331 /* Decoder.swift in Sources */,
+				OBJ_332 /* Emitter.swift in Sources */,
+				OBJ_333 /* Encoder.swift in Sources */,
+				OBJ_334 /* Mark.swift in Sources */,
+				OBJ_335 /* Node.Mapping.swift in Sources */,
+				OBJ_336 /* Node.Scalar.swift in Sources */,
+				OBJ_337 /* Node.Sequence.swift in Sources */,
+				OBJ_338 /* Node.swift in Sources */,
+				OBJ_339 /* Parser.swift in Sources */,
+				OBJ_340 /* Representer.swift in Sources */,
+				OBJ_341 /* Resolver.swift in Sources */,
+				OBJ_342 /* String+Yams.swift in Sources */,
+				OBJ_343 /* Tag.swift in Sources */,
+				OBJ_344 /* YamlError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_347 /* Sources */ = {
+		OBJ_351 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_348 /* api.c in Sources */,
-				OBJ_349 /* emitter.c in Sources */,
-				OBJ_350 /* parser.c in Sources */,
-				OBJ_351 /* reader.c in Sources */,
-				OBJ_352 /* scanner.c in Sources */,
-				OBJ_353 /* writer.c in Sources */,
+				OBJ_352 /* api.c in Sources */,
+				OBJ_353 /* emitter.c in Sources */,
+				OBJ_354 /* parser.c in Sources */,
+				OBJ_355 /* reader.c in Sources */,
+				OBJ_356 /* scanner.c in Sources */,
+				OBJ_357 /* writer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_358 /* Sources */ = {
+		OBJ_362 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_359 /* SWXMLHash+TypeConversion.swift in Sources */,
-				OBJ_360 /* SWXMLHash.swift in Sources */,
+				OBJ_363 /* SWXMLHash+TypeConversion.swift in Sources */,
+				OBJ_364 /* SWXMLHash.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_190 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "RealmGen::RealmGenKit" /* RealmGenKit */;
-			targetProxy = 2BF8ACE61FF3C57D00638467 /* PBXContainerItemProxy */;
-		};
 		OBJ_192 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "Stencil::Stencil" /* Stencil */;
-			targetProxy = 2BF8ACF51FF3C57D00638467 /* PBXContainerItemProxy */;
+			target = "RealmGen::RealmGenKit" /* RealmGenKit */;
+			targetProxy = 2BF8AD161FF3DC2500638467 /* PBXContainerItemProxy */;
 		};
 		OBJ_194 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "PathKit::PathKit" /* PathKit */;
-			targetProxy = 2BF8ACF61FF3C57D00638467 /* PBXContainerItemProxy */;
+			target = "Stencil::Stencil" /* Stencil */;
+			targetProxy = 2BF8AD251FF3DC2500638467 /* PBXContainerItemProxy */;
 		};
 		OBJ_196 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "Spectre::Spectre" /* Spectre */;
-			targetProxy = 2BF8ACF71FF3C57D00638467 /* PBXContainerItemProxy */;
+			target = "PathKit::PathKit" /* PathKit */;
+			targetProxy = 2BF8AD261FF3DC2500638467 /* PBXContainerItemProxy */;
 		};
 		OBJ_198 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "SourceKitten::SourceKittenFramework" /* SourceKittenFramework */;
-			targetProxy = 2BF8ACF81FF3C57D00638467 /* PBXContainerItemProxy */;
+			target = "Spectre::Spectre" /* Spectre */;
+			targetProxy = 2BF8AD271FF3DC2500638467 /* PBXContainerItemProxy */;
 		};
 		OBJ_200 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "Yams::Yams" /* Yams */;
-			targetProxy = 2BF8ACF91FF3C57D00638467 /* PBXContainerItemProxy */;
+			target = "SourceKitten::SourceKittenFramework" /* SourceKittenFramework */;
+			targetProxy = 2BF8AD281FF3DC2500638467 /* PBXContainerItemProxy */;
 		};
 		OBJ_202 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "Yams::CYaml" /* CYaml */;
-			targetProxy = 2BF8ACFA1FF3C57D00638467 /* PBXContainerItemProxy */;
+			target = "Yams::Yams" /* Yams */;
+			targetProxy = 2BF8AD291FF3DC2500638467 /* PBXContainerItemProxy */;
 		};
 		OBJ_204 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			target = "Yams::CYaml" /* CYaml */;
+			targetProxy = 2BF8AD2A1FF3DC2500638467 /* PBXContainerItemProxy */;
+		};
+		OBJ_206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
 			target = "SWXMLHash::SWXMLHash" /* SWXMLHash */;
-			targetProxy = 2BF8ACFB1FF3C57D00638467 /* PBXContainerItemProxy */;
-		};
-		OBJ_221 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Stencil::Stencil" /* Stencil */;
-			targetProxy = 2BF8ACE71FF3C57D00638467 /* PBXContainerItemProxy */;
-		};
-		OBJ_222 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "PathKit::PathKit" /* PathKit */;
-			targetProxy = 2BF8ACEB1FF3C57D00638467 /* PBXContainerItemProxy */;
-		};
-		OBJ_223 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Spectre::Spectre" /* Spectre */;
-			targetProxy = 2BF8ACEC1FF3C57D00638467 /* PBXContainerItemProxy */;
-		};
-		OBJ_224 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "SourceKitten::SourceKittenFramework" /* SourceKittenFramework */;
-			targetProxy = 2BF8ACED1FF3C57D00638467 /* PBXContainerItemProxy */;
+			targetProxy = 2BF8AD2B1FF3DC2500638467 /* PBXContainerItemProxy */;
 		};
 		OBJ_225 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "Yams::Yams" /* Yams */;
-			targetProxy = 2BF8ACF21FF3C57D00638467 /* PBXContainerItemProxy */;
+			target = "Stencil::Stencil" /* Stencil */;
+			targetProxy = 2BF8AD171FF3DC2500638467 /* PBXContainerItemProxy */;
 		};
 		OBJ_226 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "Yams::CYaml" /* CYaml */;
-			targetProxy = 2BF8ACF31FF3C57D00638467 /* PBXContainerItemProxy */;
+			target = "PathKit::PathKit" /* PathKit */;
+			targetProxy = 2BF8AD1B1FF3DC2500638467 /* PBXContainerItemProxy */;
 		};
 		OBJ_227 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "SWXMLHash::SWXMLHash" /* SWXMLHash */;
-			targetProxy = 2BF8ACF41FF3C57D00638467 /* PBXContainerItemProxy */;
-		};
-		OBJ_254 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "PathKit::PathKit" /* PathKit */;
-			targetProxy = 2BF8ACE81FF3C57D00638467 /* PBXContainerItemProxy */;
-		};
-		OBJ_255 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
 			target = "Spectre::Spectre" /* Spectre */;
-			targetProxy = 2BF8ACEA1FF3C57D00638467 /* PBXContainerItemProxy */;
+			targetProxy = 2BF8AD1C1FF3DC2500638467 /* PBXContainerItemProxy */;
 		};
-		OBJ_263 /* PBXTargetDependency */ = {
+		OBJ_228 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "Spectre::Spectre" /* Spectre */;
-			targetProxy = 2BF8ACE91FF3C57D00638467 /* PBXContainerItemProxy */;
+			target = "SourceKitten::SourceKittenFramework" /* SourceKittenFramework */;
+			targetProxy = 2BF8AD1D1FF3DC2500638467 /* PBXContainerItemProxy */;
 		};
-		OBJ_319 /* PBXTargetDependency */ = {
+		OBJ_229 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Yams::Yams" /* Yams */;
-			targetProxy = 2BF8ACEE1FF3C57D00638467 /* PBXContainerItemProxy */;
+			targetProxy = 2BF8AD221FF3DC2500638467 /* PBXContainerItemProxy */;
 		};
-		OBJ_320 /* PBXTargetDependency */ = {
+		OBJ_230 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Yams::CYaml" /* CYaml */;
-			targetProxy = 2BF8ACF01FF3C57D00638467 /* PBXContainerItemProxy */;
+			targetProxy = 2BF8AD231FF3DC2500638467 /* PBXContainerItemProxy */;
 		};
-		OBJ_321 /* PBXTargetDependency */ = {
+		OBJ_231 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "SWXMLHash::SWXMLHash" /* SWXMLHash */;
-			targetProxy = 2BF8ACF11FF3C57D00638467 /* PBXContainerItemProxy */;
+			targetProxy = 2BF8AD241FF3DC2500638467 /* PBXContainerItemProxy */;
 		};
-		OBJ_343 /* PBXTargetDependency */ = {
+		OBJ_258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PathKit::PathKit" /* PathKit */;
+			targetProxy = 2BF8AD181FF3DC2500638467 /* PBXContainerItemProxy */;
+		};
+		OBJ_259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Spectre::Spectre" /* Spectre */;
+			targetProxy = 2BF8AD1A1FF3DC2500638467 /* PBXContainerItemProxy */;
+		};
+		OBJ_267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Spectre::Spectre" /* Spectre */;
+			targetProxy = 2BF8AD191FF3DC2500638467 /* PBXContainerItemProxy */;
+		};
+		OBJ_323 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Yams::Yams" /* Yams */;
+			targetProxy = 2BF8AD1E1FF3DC2500638467 /* PBXContainerItemProxy */;
+		};
+		OBJ_324 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Yams::CYaml" /* CYaml */;
-			targetProxy = 2BF8ACEF1FF3C57D00638467 /* PBXContainerItemProxy */;
+			targetProxy = 2BF8AD201FF3DC2500638467 /* PBXContainerItemProxy */;
+		};
+		OBJ_325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SWXMLHash::SWXMLHash" /* SWXMLHash */;
+			targetProxy = 2BF8AD211FF3DC2500638467 /* PBXContainerItemProxy */;
+		};
+		OBJ_347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Yams::CYaml" /* CYaml */;
+			targetProxy = 2BF8AD1F1FF3DC2500638467 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_135 /* Debug */ = {
+		OBJ_137 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1402,7 +1410,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_136 /* Release */ = {
+		OBJ_138 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1411,7 +1419,7 @@
 			};
 			name = Release;
 		};
-		OBJ_141 /* Debug */ = {
+		OBJ_143 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1420,7 +1428,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_142 /* Release */ = {
+		OBJ_144 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1429,7 +1437,7 @@
 			};
 			name = Release;
 		};
-		OBJ_147 /* Debug */ = {
+		OBJ_149 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1438,7 +1446,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_148 /* Release */ = {
+		OBJ_150 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1447,7 +1455,7 @@
 			};
 			name = Release;
 		};
-		OBJ_153 /* Debug */ = {
+		OBJ_155 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1456,7 +1464,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_154 /* Release */ = {
+		OBJ_156 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1465,7 +1473,7 @@
 			};
 			name = Release;
 		};
-		OBJ_159 /* Debug */ = {
+		OBJ_161 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1474,7 +1482,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_160 /* Release */ = {
+		OBJ_162 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1483,7 +1491,7 @@
 			};
 			name = Release;
 		};
-		OBJ_165 /* Debug */ = {
+		OBJ_167 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1492,7 +1500,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_166 /* Release */ = {
+		OBJ_168 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1501,7 +1509,7 @@
 			};
 			name = Release;
 		};
-		OBJ_171 /* Debug */ = {
+		OBJ_173 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1510,7 +1518,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_172 /* Release */ = {
+		OBJ_174 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1519,7 +1527,7 @@
 			};
 			name = Release;
 		};
-		OBJ_177 /* Debug */ = {
+		OBJ_179 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1544,7 +1552,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_178 /* Release */ = {
+		OBJ_180 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1569,7 +1577,7 @@
 			};
 			name = Release;
 		};
-		OBJ_207 /* Debug */ = {
+		OBJ_209 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1597,7 +1605,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_208 /* Release */ = {
+		OBJ_210 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1625,7 +1633,7 @@
 			};
 			name = Release;
 		};
-		OBJ_229 /* Debug */ = {
+		OBJ_233 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1647,7 +1655,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_230 /* Release */ = {
+		OBJ_234 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1669,7 +1677,7 @@
 			};
 			name = Release;
 		};
-		OBJ_257 /* Debug */ = {
+		OBJ_261 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1691,7 +1699,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_258 /* Release */ = {
+		OBJ_262 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1713,7 +1721,7 @@
 			};
 			name = Release;
 		};
-		OBJ_265 /* Debug */ = {
+		OBJ_269 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1735,7 +1743,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_266 /* Release */ = {
+		OBJ_270 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1757,7 +1765,7 @@
 			};
 			name = Release;
 		};
-		OBJ_278 /* Debug */ = {
+		OBJ_282 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1785,7 +1793,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_279 /* Release */ = {
+		OBJ_283 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1835,7 +1843,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_323 /* Debug */ = {
+		OBJ_327 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1861,7 +1869,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_324 /* Release */ = {
+		OBJ_328 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1887,7 +1895,7 @@
 			};
 			name = Release;
 		};
-		OBJ_345 /* Debug */ = {
+		OBJ_349 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = NO;
@@ -1912,7 +1920,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_346 /* Release */ = {
+		OBJ_350 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = NO;
@@ -1937,7 +1945,7 @@
 			};
 			name = Release;
 		};
-		OBJ_356 /* Debug */ = {
+		OBJ_360 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1959,7 +1967,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_357 /* Release */ = {
+		OBJ_361 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -2004,74 +2012,74 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_134 /* Build configuration list for PBXNativeTarget "RealmGenPackageDescription" */ = {
+		OBJ_136 /* Build configuration list for PBXNativeTarget "RealmGenPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_135 /* Debug */,
-				OBJ_136 /* Release */,
+				OBJ_137 /* Debug */,
+				OBJ_138 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_140 /* Build configuration list for PBXNativeTarget "StencilPackageDescription" */ = {
+		OBJ_142 /* Build configuration list for PBXNativeTarget "StencilPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_141 /* Debug */,
-				OBJ_142 /* Release */,
+				OBJ_143 /* Debug */,
+				OBJ_144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_146 /* Build configuration list for PBXNativeTarget "PathKitPackageDescription" */ = {
+		OBJ_148 /* Build configuration list for PBXNativeTarget "PathKitPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_147 /* Debug */,
-				OBJ_148 /* Release */,
+				OBJ_149 /* Debug */,
+				OBJ_150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_152 /* Build configuration list for PBXNativeTarget "SpectrePackageDescription" */ = {
+		OBJ_154 /* Build configuration list for PBXNativeTarget "SpectrePackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_153 /* Debug */,
-				OBJ_154 /* Release */,
+				OBJ_155 /* Debug */,
+				OBJ_156 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_158 /* Build configuration list for PBXNativeTarget "SourceKittenPackageDescription" */ = {
+		OBJ_160 /* Build configuration list for PBXNativeTarget "SourceKittenPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_159 /* Debug */,
-				OBJ_160 /* Release */,
+				OBJ_161 /* Debug */,
+				OBJ_162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_164 /* Build configuration list for PBXNativeTarget "YamsPackageDescription" */ = {
+		OBJ_166 /* Build configuration list for PBXNativeTarget "YamsPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_165 /* Debug */,
-				OBJ_166 /* Release */,
+				OBJ_167 /* Debug */,
+				OBJ_168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_170 /* Build configuration list for PBXNativeTarget "SWXMLHashPackageDescription" */ = {
+		OBJ_172 /* Build configuration list for PBXNativeTarget "SWXMLHashPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_171 /* Debug */,
-				OBJ_172 /* Release */,
+				OBJ_173 /* Debug */,
+				OBJ_174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_176 /* Build configuration list for PBXNativeTarget "RealmGen" */ = {
+		OBJ_178 /* Build configuration list for PBXNativeTarget "RealmGen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_177 /* Debug */,
-				OBJ_178 /* Release */,
+				OBJ_179 /* Debug */,
+				OBJ_180 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -2085,74 +2093,74 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_206 /* Build configuration list for PBXNativeTarget "RealmGenKit" */ = {
+		OBJ_208 /* Build configuration list for PBXNativeTarget "RealmGenKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_207 /* Debug */,
-				OBJ_208 /* Release */,
+				OBJ_209 /* Debug */,
+				OBJ_210 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_228 /* Build configuration list for PBXNativeTarget "Stencil" */ = {
+		OBJ_232 /* Build configuration list for PBXNativeTarget "Stencil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_229 /* Debug */,
-				OBJ_230 /* Release */,
+				OBJ_233 /* Debug */,
+				OBJ_234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_256 /* Build configuration list for PBXNativeTarget "PathKit" */ = {
+		OBJ_260 /* Build configuration list for PBXNativeTarget "PathKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_257 /* Debug */,
-				OBJ_258 /* Release */,
+				OBJ_261 /* Debug */,
+				OBJ_262 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_264 /* Build configuration list for PBXNativeTarget "Spectre" */ = {
+		OBJ_268 /* Build configuration list for PBXNativeTarget "Spectre" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_265 /* Debug */,
-				OBJ_266 /* Release */,
+				OBJ_269 /* Debug */,
+				OBJ_270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_277 /* Build configuration list for PBXNativeTarget "SourceKittenFramework" */ = {
+		OBJ_281 /* Build configuration list for PBXNativeTarget "SourceKittenFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_278 /* Debug */,
-				OBJ_279 /* Release */,
+				OBJ_282 /* Debug */,
+				OBJ_283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_322 /* Build configuration list for PBXNativeTarget "Yams" */ = {
+		OBJ_326 /* Build configuration list for PBXNativeTarget "Yams" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_323 /* Debug */,
-				OBJ_324 /* Release */,
+				OBJ_327 /* Debug */,
+				OBJ_328 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_344 /* Build configuration list for PBXNativeTarget "CYaml" */ = {
+		OBJ_348 /* Build configuration list for PBXNativeTarget "CYaml" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_345 /* Debug */,
-				OBJ_346 /* Release */,
+				OBJ_349 /* Debug */,
+				OBJ_350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_355 /* Build configuration list for PBXNativeTarget "SWXMLHash" */ = {
+		OBJ_359 /* Build configuration list for PBXNativeTarget "SWXMLHash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_356 /* Debug */,
-				OBJ_357 /* Release */,
+				OBJ_360 /* Debug */,
+				OBJ_361 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
