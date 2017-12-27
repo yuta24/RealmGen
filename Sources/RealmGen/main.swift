@@ -1,4 +1,9 @@
 import Foundation
 import RealmGenKit
 
-let generator = Generator(arguments: CommandLine.arguments)
+do {
+    try Generator(arguments: CommandLine.arguments).execute()
+} catch {
+    print(error.localizedDescription)
+    // TODO: Impl
+}
