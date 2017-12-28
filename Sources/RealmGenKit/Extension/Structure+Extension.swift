@@ -28,7 +28,9 @@ extension Structure {
     }
 
     var inheritedtypes: [String] {
-        return get(.inheritedtypes, dictionary) ?? []
+        let inheritedTypesOrNil: [[String: SourceKitRepresentable]]? = get(.inheritedtypes, dictionary)
+        let inheritedTypes = inheritedTypesOrNil ?? []
+        return inheritedTypes.flatMap { (dictionary) -> String? in return get(.name, dictionary) }
     }
 }
 

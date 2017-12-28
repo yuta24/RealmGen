@@ -24,7 +24,7 @@ public final class Generator {
         guard let aFiles = (arguments.second.flatMap { files(at: $0) }) else {
             throw GeneratorError.filePathNotFound
         }
-        let types = aFiles.map { Structure(file: $0).substructures }.flatMap { $0 }.flatMap { Type($0) }
+        let types = aFiles.map { Structure(file: $0).substructures }.flatMap { $0 }.flatMap { Type($0) }.filter(isRealmConvertible)
         return try generate(with: types, templateString: templateString)
     }
 
@@ -33,6 +33,10 @@ public final class Generator {
         let context = ["types": types.map { $0.toDictionary() }]
         return try template.render(context)
     }
+}
+
+private func isRealmConvertible(_ type: Type) -> Bool {
+    return type.inheritedtypes.contains("RealmConvertible") || type.inheritedtypes.contains("RealmGenKit.RealmConvertible")
 }
 
 private func files(at path: String, fileManager: FileManager = FileManager.default) -> [File] {

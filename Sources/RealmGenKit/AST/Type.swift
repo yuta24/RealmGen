@@ -9,12 +9,10 @@ import Foundation
 import SourceKittenFramework
 
 struct Property {
-//    private let structure: Structure
     let name: String
     let typeName: String
 
     init?(_ structure: Structure) {
-//        self.structure = structure
         guard let kind = structure.kind, kind == .varInstance, let name = structure.name, let typeName = structure.typeName else {
             return nil
         }
@@ -35,16 +33,13 @@ struct Type {
         return [.struct, .class, .enum, .protocol]
     }
 
-//    private let structure: Structure
     let kind: SwiftDeclarationKind
-//    let accessibility: String
     let name: String
     let properties: [Property]
     let nested: [Type]
     let inheritedtypes: [String]
 
     init?(_ structure: Structure) {
-//        self.structure = structure
         guard let kind = structure.kind, Type.declarationKinds.contains(kind), let name = structure.name else {
             return nil
         }
