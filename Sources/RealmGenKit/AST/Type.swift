@@ -24,7 +24,8 @@ struct Property {
 
     func toDictionary() -> [String: Any] {
         return [
-            "name": name
+            "name": name,
+            "typeName": typeName,
         ]
     }
 }
