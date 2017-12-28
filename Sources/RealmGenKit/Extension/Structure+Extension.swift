@@ -27,4 +27,8 @@ extension Structure {
     var typeName: String? {
         return dictionary[SwiftDocKey.typeName.rawValue] as? String
     }
+
+    var inheritedtypes: [String] {
+        return (dictionary[SwiftDocKey.inheritedtypes.rawValue] as? [String]) ?? []
+    }
 }

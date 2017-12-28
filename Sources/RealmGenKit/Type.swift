@@ -21,6 +21,12 @@ struct Property {
         self.name = name
         self.typeName = typeName
     }
+
+    func toDictionary() -> [String: Any] {
+        return [
+            "name": name
+        ]
+    }
 }
 
 struct Type {
@@ -33,6 +39,7 @@ struct Type {
     let typeName: String
     let properties: [Property]
     let nested: [Type]
+    let inheritedtypes: [String]
 
     init?(_ structure: Structure) {
         self.structure = structure
@@ -43,5 +50,14 @@ struct Type {
         self.typeName = typeName
         self.properties = structure.substructures.flatMap { Property($0) }
         self.nested = structure.substructures.flatMap { Type($0) }
+        self.inheritedtypes = structure.inheritedtypes
+    }
+
+    func toDictionary() -> [String: Any] {
+        return [
+            "name": typeName.replacingOccurrences(of: ".", with: ""),
+            "realmName": typeName.replacingOccurrences(of: ".", with: "") + "Realm",
+            "properties": properties.map { $0.toDictionary() },
+        ]
     }
 }

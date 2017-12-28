@@ -7,6 +7,7 @@
 
 import Foundation
 import SourceKittenFramework
+import Stencil
 
 public enum GeneratorError: Error {
     case filePathNotFound
@@ -19,12 +20,20 @@ public final class Generator {
         self.arguments = arguments
     }
 
-    public func execute() throws {
+    public func execute(with templateString: String) throws {
         guard let aFiles = (arguments.second.flatMap { files(at: $0) }) else {
             throw GeneratorError.filePathNotFound
         }
         let types = aFiles.map { Structure(file: $0).substructures }.flatMap { $0 }.flatMap { Type($0) }
-        print(types)
+        let code = try generate(with: types, templateString: templateString)
+        print(code)
+    }
+
+    private func generate(with types: [Type], templateString: String) throws -> String {
+        let template = Template(templateString: templateString)
+        let context = ["types": types.map { $0.toDictionary() }]
+        print(context)
+        return try template.render(context)
     }
 }
 
