@@ -47,7 +47,6 @@
 		OBJ_227 /* CYaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yams::CYaml::Product" /* CYaml.framework */; };
 		OBJ_228 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SWXMLHash::SWXMLHash::Product" /* SWXMLHash.framework */; };
 		OBJ_241 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Type.swift */; };
-		OBJ_242 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Converter.swift */; };
 		OBJ_243 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Array+Extension.swift */; };
 		OBJ_244 /* Structure+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Structure+Extension.swift */; };
 		OBJ_245 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Generator.swift */; };
@@ -390,7 +389,6 @@
 		OBJ_106 /* yaml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yaml.h; sourceTree = "<group>"; };
 		OBJ_107 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Users/yuta24/ghq/github.com/yuta24/RealmGen/RealmGen.xcodeproj/GeneratedModuleMap/CYaml/module.modulemap; sourceTree = "<group>"; };
 		OBJ_109 /* Constructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constructor.swift; sourceTree = "<group>"; };
-		OBJ_11 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		OBJ_110 /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
 		OBJ_111 /* Emitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emitter.swift; sourceTree = "<group>"; };
 		OBJ_112 /* Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoder.swift; sourceTree = "<group>"; };
@@ -841,7 +839,6 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* AST */,
-				OBJ_11 /* Converter.swift */,
 				OBJ_12 /* Extension */,
 				OBJ_15 /* Generator.swift */,
 				OBJ_16 /* RealmConvertible.swift */,
@@ -1311,7 +1308,6 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_241 /* Type.swift in Sources */,
-				OBJ_242 /* Converter.swift in Sources */,
 				OBJ_243 /* Array+Extension.swift in Sources */,
 				OBJ_244 /* Structure+Extension.swift in Sources */,
 				OBJ_245 /* Generator.swift in Sources */,
