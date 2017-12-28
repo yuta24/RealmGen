@@ -10,25 +10,28 @@ import SourceKittenFramework
 
 extension Structure {
     var substructures: [Structure] {
-        guard let substructures = dictionary[SwiftDocKey.substructure.rawValue] as? [[String: SourceKitRepresentable]] else {
-            return []
-        }
-        return substructures.map { Structure(sourceKitResponse: $0) }
+        let substructures: [[String: SourceKitRepresentable]]? = get(.substructure, dictionary)
+        guard let structures = substructures else { return [] }
+        return structures.map { Structure(sourceKitResponse: $0) }
     }
 
     var name: String? {
-        return dictionary[SwiftDocKey.name.rawValue] as? String
+        return get(.name, dictionary)
     }
 
     var kind: SwiftDeclarationKind? {
-        return (dictionary[SwiftDocKey.kind.rawValue] as? String).flatMap(SwiftDeclarationKind.init)
+        return get(.kind, dictionary).flatMap(SwiftDeclarationKind.init)
     }
 
     var typeName: String? {
-        return dictionary[SwiftDocKey.typeName.rawValue] as? String
+        return get(.typeName, dictionary)
     }
 
     var inheritedtypes: [String] {
-        return (dictionary[SwiftDocKey.inheritedtypes.rawValue] as? [String]) ?? []
+        return get(.inheritedtypes, dictionary) ?? []
     }
+}
+
+private func get<T>(_ key: SwiftDocKey, _ dictionary: [String: SourceKitRepresentable]) -> T? {
+    return dictionary[key.rawValue] as? T
 }

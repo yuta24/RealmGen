@@ -35,15 +35,16 @@ struct Type {
         return [.struct, .class, .enum, .protocol, .extension]
     }
 
-    private let structure: Structure
+//    private let structure: Structure
     let kind: SwiftDeclarationKind
+//    let accessibility: String
     let name: String
     let properties: [Property]
     let nested: [Type]
     let inheritedtypes: [String]
 
     init?(_ structure: Structure) {
-        self.structure = structure
+//        self.structure = structure
         guard let kind = structure.kind, Type.declarationKinds.contains(kind), let name = structure.name else {
             return nil
         }
