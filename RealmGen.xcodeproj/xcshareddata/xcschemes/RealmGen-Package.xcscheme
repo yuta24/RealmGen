@@ -141,6 +141,16 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "RealmGen::RealmGenTests"
+               BuildableName = "RealmGenTests.xctest"
+               BlueprintName = "RealmGenTests"
+               ReferencedContainer = "container:RealmGen.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
