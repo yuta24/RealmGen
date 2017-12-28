@@ -99,6 +99,6 @@ extension User {
 - [ ] Support extension
 - [ ] Support enum and custom type
 
-# LICENSE
+## LICENSE
 
 RealmGen is released under the MIT license. Go read the LICENSE file for more information.
