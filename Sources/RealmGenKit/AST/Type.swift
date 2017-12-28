@@ -32,7 +32,7 @@ struct Property {
 
 struct Type {
     private static var declarationKinds: [SwiftDeclarationKind] {
-        return [.struct, .class, .enum, .protocol, .extension]
+        return [.struct, .class, .enum, .protocol]
     }
 
 //    private let structure: Structure

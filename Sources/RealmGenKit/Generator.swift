@@ -27,6 +27,7 @@ public final class Generator {
         let types = aFiles.map { Structure(file: $0).substructures }.flatMap { $0 }.flatMap { Type($0) }
         print(types)
         let code = try generate(with: types, templateString: templateString)
+        print(code)
     }
 
     private func generate(with types: [Type], templateString: String) throws -> String {

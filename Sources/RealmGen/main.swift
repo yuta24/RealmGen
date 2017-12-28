@@ -3,6 +3,12 @@ import RealmGenKit
 
 let templateString = """
 {% for type in types %}
+public class {{ type.realmName }}: Object {
+    {% for property in type.properties %}
+    @objc dynamic var {{ property.name }}: {{ property.typeName }}
+    {% endfor %}
+}
+
 extension {{ type.realmName }} {
     convenience init(_ model: {{ type.name }}) {
         self.init()
