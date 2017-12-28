@@ -30,7 +30,8 @@ extension {{ type.name }} {
 """
 
 do {
-    try Generator(arguments: CommandLine.arguments).execute(with: templateString)
+    let code = try Generator(arguments: CommandLine.arguments).execute(with: templateString)
+    print(code)
 } catch {
     print(error.localizedDescription)
     // TODO: Impl

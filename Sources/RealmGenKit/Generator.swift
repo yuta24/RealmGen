@@ -20,14 +20,12 @@ public final class Generator {
         self.arguments = arguments
     }
 
-    public func execute(with templateString: String) throws {
+    public func execute(with templateString: String) throws -> String {
         guard let aFiles = (arguments.second.flatMap { files(at: $0) }) else {
             throw GeneratorError.filePathNotFound
         }
         let types = aFiles.map { Structure(file: $0).substructures }.flatMap { $0 }.flatMap { Type($0) }
-        print(types)
-        let code = try generate(with: types, templateString: templateString)
-        print(code)
+        return try generate(with: types, templateString: templateString)
     }
 
     private func generate(with types: [Type], templateString: String) throws -> String {
