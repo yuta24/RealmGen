@@ -9,12 +9,12 @@ import Foundation
 import SourceKittenFramework
 
 struct Property {
-    private let structure: Structure
+//    private let structure: Structure
     let name: String
     let typeName: String
 
     init?(_ structure: Structure) {
-        self.structure = structure
+//        self.structure = structure
         guard let kind = structure.kind, kind == .varInstance, let name = structure.name, let typeName = structure.typeName else {
             return nil
         }
@@ -36,18 +36,18 @@ struct Type {
 
     private let structure: Structure
     let kind: SwiftDeclarationKind
-    let typeName: String
+    let name: String
     let properties: [Property]
     let nested: [Type]
     let inheritedtypes: [String]
 
     init?(_ structure: Structure) {
         self.structure = structure
-        guard let kind = structure.kind, Type.declarationKinds.contains(kind), let typeName = structure.name else {
+        guard let kind = structure.kind, Type.declarationKinds.contains(kind), let name = structure.name else {
             return nil
         }
         self.kind = kind
-        self.typeName = typeName
+        self.name = name
         self.properties = structure.substructures.flatMap { Property($0) }
         self.nested = structure.substructures.flatMap { Type($0) }
         self.inheritedtypes = structure.inheritedtypes
@@ -55,8 +55,8 @@ struct Type {
 
     func toDictionary() -> [String: Any] {
         return [
-            "name": typeName.replacingOccurrences(of: ".", with: ""),
-            "realmName": typeName.replacingOccurrences(of: ".", with: "") + "Realm",
+            "name": name.replacingOccurrences(of: ".", with: ""),
+            "realmName": name.replacingOccurrences(of: ".", with: "") + "Realm",
             "properties": properties.map { $0.toDictionary() },
         ]
     }
