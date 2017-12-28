@@ -2,6 +2,10 @@
 
 RealmGen is code generation tool for realm object.
 
+## Usage
+
+`realmgen /source/path`
+
 ## Example
 
 ```swift
