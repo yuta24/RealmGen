@@ -5,7 +5,7 @@ RealmGen is code generation tool for realm object.
 ## Example
 
 ```swift
-public struct User: StoreModel, RealmConvertible {
+public struct User: RealmConvertible {
     public let login: String
     public let id: Int64
     public let avatarUrlRaw: String
