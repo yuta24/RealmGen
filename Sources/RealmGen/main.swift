@@ -22,7 +22,7 @@ extension {{ type.name }} {
     public init(_ entity: {{ type.name }}) {
         self.init()
         {% for property in type.properties %}
-        self.{{ property.name }} = model.{{ property.name }}
+        self.{{ property.name }} = entity.{{ property.name }}
         {% endfor %}
     }
 }
