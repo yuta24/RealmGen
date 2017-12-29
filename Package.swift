@@ -5,12 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "RealmGen",
-    products: [
-        // Products define the executables and libraries produced by a package, and make them visible to other packages.
-        .library(
-            name: "RealmGenKit",
-            targets: ["RealmGenKit"]),
-    ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
@@ -23,11 +17,5 @@ let package = Package(
         .target(
             name: "RealmGen",
             dependencies: ["SourceKittenFramework", "Stencil"]),
-        .target(
-            name: "RealmGenKit",
-            dependencies: []),
-        .testTarget(
-            name: "RealmGenTests",
-            dependencies: ["RealmGen"]),
     ]
 )
