@@ -323,7 +323,7 @@
 		OBJ_98 /* scanner.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scanner.c; sourceTree = "<group>"; };
 		OBJ_99 /* writer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = writer.c; sourceTree = "<group>"; };
 		"PathKit::PathKit::Product" /* PathKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PathKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"RealmGen::RealmGen::Product" /* RealmGen */ = {isa = PBXFileReference; lastKnownFileType = text; path = RealmGen; sourceTree = BUILT_PRODUCTS_DIR; };
+		"RealmGen::RealmGen::Product" /* realmgen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = realmgen; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SWXMLHash::SWXMLHash::Product" /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SWXMLHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SourceKitten::SourceKittenFramework::Product" /* SourceKittenFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SourceKittenFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Spectre::Spectre::Product" /* Spectre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Spectre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -462,7 +462,7 @@
 		OBJ_125 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				"RealmGen::RealmGen::Product" /* RealmGen */,
+				"RealmGen::RealmGen::Product" /* realmgen */,
 				"Stencil::Stencil::Product" /* Stencil.framework */,
 				"PathKit::PathKit::Product" /* PathKit.framework */,
 				"Spectre::Spectre::Product" /* Spectre.framework */,
@@ -736,7 +736,7 @@
 			);
 			name = RealmGen;
 			productName = RealmGen;
-			productReference = "RealmGen::RealmGen::Product" /* RealmGen */;
+			productReference = "RealmGen::RealmGen::Product" /* realmgen */;
 			productType = "com.apple.product-type.tool";
 		};
 		"RealmGen::SwiftPMPackageDescription" /* RealmGenPackageDescription */ = {
@@ -1390,7 +1390,7 @@
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
 				SWIFT_VERSION = 4.0;
-				TARGET_NAME = RealmGen;
+				TARGET_NAME = realmgen;
 			};
 			name = Debug;
 		};
@@ -1415,7 +1415,7 @@
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
 				SWIFT_VERSION = 4.0;
-				TARGET_NAME = RealmGen;
+				TARGET_NAME = realmgen;
 			};
 			name = Release;
 		};
