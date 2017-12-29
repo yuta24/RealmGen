@@ -21,10 +21,36 @@ struct Property {
     }
 
     func toDictionary() -> [String: Any] {
-        return [
-            "name": name,
-            "typeName": typeName,
-        ]
+        if let initialValue = initialValue() {
+            return [
+                "name": name,
+                "typeName": typeName,
+                "initialValue": initialValue,
+            ]
+        } else {
+            return [
+                "name": name,
+                "typeName": typeName,
+            ]
+        }
+    }
+
+    func initialValue() -> String? {
+        if typeName.contains("?") {
+            return ""
+        }
+        switch typeName {
+        case "Int", "Int8", "Int16", "Int32", "Int64":
+            return "= 0"
+        case "Bool":
+            return "= false"
+        case "Double", "Float":
+            return "= 0.0"
+        case "String":
+            return "= \"\""
+        default:
+            return ""
+        }
     }
 }
 

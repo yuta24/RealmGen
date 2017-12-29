@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "RealmGen::RealmGen"
-               BuildableName = "RealmGen"
+               BuildableName = "realmgen"
                BlueprintName = "RealmGen"
                ReferencedContainer = "container:RealmGen.xcodeproj">
             </BuildableReference>
@@ -146,7 +146,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "RealmGen::RealmGen"
-            BuildableName = "RealmGen"
+            BuildableName = "realmgen"
             BlueprintName = "RealmGen"
             ReferencedContainer = "container:RealmGen.xcodeproj">
          </BuildableReference>

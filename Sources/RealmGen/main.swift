@@ -1,11 +1,12 @@
 import Foundation
-import RealmGenKit
 
 let templateString = """
+import Realm
+import RealmSwift
 {% for type in types %}
 public class {{ type.realmName }}: Object {
     {% for property in type.properties %}
-    @objc dynamic var {{ property.name }}: {{ property.typeName }}
+    {% if property.initialValue %}@objc dynamic var {{ property.name }}: {{ property.typeName }} {{ property.initialValue }}{% else %}@objc dynamic var {{ property.name }}: {{ property.typeName }}{% endif %}
     {% endfor %}
 }
 
@@ -20,7 +21,6 @@ extension {{ type.realmName }} {
 
 extension {{ type.name }} {
     public init(_ entity: {{ type.name }}) {
-        self.init()
         {% for property in type.properties %}
         self.{{ property.name }} = entity.{{ property.name }}
         {% endfor %}
