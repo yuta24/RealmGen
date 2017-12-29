@@ -8,7 +8,7 @@ RealmGen is code generation tool for realm object.
 
 ## Example
 
-Source code.
+Source code. The type inherited `RealmConvertible`. You must define `RealmConvertible`. It's not include this library yet.
 
 ```swift
 public struct User: RealmConvertible {
