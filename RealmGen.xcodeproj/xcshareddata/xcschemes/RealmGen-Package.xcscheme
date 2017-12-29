@@ -28,20 +28,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "RealmGen::RealmGenKit"
-               BuildableName = "RealmGenKit.framework"
-               BlueprintName = "RealmGenKit"
-               ReferencedContainer = "container:RealmGen.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "Stencil::Stencil"
                BuildableName = "Stencil.framework"
                BlueprintName = "Stencil"
@@ -129,6 +115,20 @@
                BlueprintIdentifier = "SWXMLHash::SWXMLHash"
                BuildableName = "SWXMLHash.framework"
                BlueprintName = "SWXMLHash"
+               ReferencedContainer = "container:RealmGen.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "RealmGen::RealmGenKit"
+               BuildableName = "RealmGenKit.framework"
+               BlueprintName = "RealmGenKit"
                ReferencedContainer = "container:RealmGen.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

@@ -7,9 +7,6 @@ let package = Package(
     name: "RealmGen",
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
-        .executable(
-            name: "RealmGen",
-            targets: ["RealmGen"]),
         .library(
             name: "RealmGenKit",
             targets: ["RealmGenKit"]),
@@ -25,10 +22,10 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "RealmGen",
-            dependencies: ["RealmGenKit"]),
+            dependencies: ["RealmGenKit", "SourceKittenFramework", "Stencil"]),
         .target(
             name: "RealmGenKit",
-            dependencies: ["SourceKittenFramework", "Stencil"]),
+            dependencies: []),
         .testTarget(
             name: "RealmGenTests",
             dependencies: ["RealmGen"]),
